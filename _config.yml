@@ -6,3 +6,4 @@ title: Calculador de Disipadores
 logo: /assets/img/logo.png
 description: Interfaz gráfica para el calculo de disipadores.
 show_downloads: true
+theme: jekyll-theme-midnight
