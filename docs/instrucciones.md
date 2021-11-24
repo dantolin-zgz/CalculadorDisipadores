@@ -27,7 +27,8 @@ Cada uno de los botones Teoría permiten acceder al documento que contiene la te
 
 Al lanzarse el documento frente al programa instalado por el usuario, la aplicación CdD queda en un segundo plano, de manera que el usuario pueda consultar la documentación necesaria y continuar utilizando CdD al mismo tiempo.
 Los documentos de teoría tienen el siguiente aspecto:
-<p align="center">[![This is an image] (../assets/imag/Fig2.png)] </p> 
+<p align="center">[![This is an image] (../assets/imag/Fig2.png)] </p>
+<img src="../assets/imag/Fig2.png"  title="Ejemplo contenido en pdf"> 
 <p align="center">Figura 2. – Ejemplo de documento pdf con contenido teórico.</p>
 
 Por último, cada uno de los botones Calculador lanzan una nueva ventana asociada a cada uno de los modos de operación donde se recogerán los datos necesarios para la realización del calculo que permite obtener el valor de la resistencia térmica del disipador necesaria para un dispositivo, así como la sobrepotencia máxima que puede soportar un circuito integrado dependiendo de su régimen de funcionamiento.
