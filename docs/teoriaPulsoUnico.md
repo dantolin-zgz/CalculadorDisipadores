@@ -12,9 +12,9 @@ El modelo de conducción térmica caracterizado por un circuito puramente resist
 --> 
 
 <p align="center">
-  <img src="/assets/img/teoPulsoUnico/Fig1.png">
+  <img src="../assets/img/teoPulsoUnico/Fig1.png">
 </p>
-<!--![Cirquito eléctrico equivalente](/assets/img/teoPulsoUnico/Fig1.png)-->
+<!--![Cirquito eléctrico equivalente](../assets/img/teoPulsoUnico/Fig1.png)-->
 <p align = "center">Figura 1. – Circuito eléctronico equivalente al comportamiento térmico.</p> 
 
 <justity> La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito. </justity>
