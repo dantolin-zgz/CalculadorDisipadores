@@ -14,6 +14,7 @@ El modelo de conducción térmica caracterizado por un circuito puramente resist
 <p align="center">
   <img src="../assets/img/teoPulsoUnico/Fig1.png">
 </p>
+<div align="center"><img src="../assets/img/teoPulsoUnico/Fig1.png"></div>
 <!--![Cirquito eléctrico equivalente](../assets/img/teoPulsoUnico/Fig1.png)-->
 <p align = "center">Figura 1. – Circuito eléctronico equivalente al comportamiento térmico.</p> 
 
