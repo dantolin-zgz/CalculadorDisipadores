@@ -1,3 +1,7 @@
+---
+usemathjax: true
+---
+
 ## Impedancia térmica transitoria (tren de pulsos)
 
 La aproximación ideal de la onda de potencia supone incluir en el valor permanente de conducción la contribución de los transitorios de conmutación.
