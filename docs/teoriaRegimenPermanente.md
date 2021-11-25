@@ -1,6 +1,4 @@
----
-usemathjax: true
----
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Limitación de potencia máxima capaz de disipar un dispositivo en régimen de excitación continua
 El valor máximo de la temperatura de operación, también denominada **temperatura de la unión**, $T_j$, determina la potencia máxima que puede disipar el componente.
