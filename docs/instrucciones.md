@@ -2,9 +2,16 @@
 
 # Manual de Usuario del Programa Calculador de Disipadores (CdD)
 
+- [Menú Principal](#menú-principal)
+- [Menús modo de operación](#menús-modo-de-operación)
+    - [Régimen de excitación continua](#régimen-de-excitación-continua)
+    - [Púlso único](#pulso-único)
+    - [Tren de pulsos](#tren-de-pulsos)
+- [Tratamiento de errores](#tratamiento-de-errores)
+
 El presente documento contiene las instrucciones necesarias para el uso de la **aplicación Calculo de Disipadores (CdD)**, que sirve para calcular disipadores térmicos y para averiguar la sobrepotencia máxima que soportará un circuito integrado. Este cálculo se encuentra fuertemente ligado a la Electrónica de Potencia.
 
-El código del software, así como todos los documentos asociados se encuentran en el siguiente repositorio en Github: https://github.com/dantolin-zgz/CalculadorDisipadores/. Todo el conjunto se encuentra bajo una licencia ![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg). El código de la aplicación se está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MAC.
+El código del software, así como todos los documentos asociados se encuentran en [este repositorio de Github](https://github.com/dantolin-zgz/CalculadorDisipadores/). Todo el conjunto se encuentra bajo una licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). El código de la aplicación se está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MAC.
 
 El conjunto de lo anteriormente comentado convierte a la aplicación en un Recurso Educativo en Abierto (REA), Open Educative Resource (OER), en inglés. Esto está alineado con los siguientes [Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 de Naciones Unidas](https://www.un.org/sustainabledevelopment/es/), contribuyendo en cierta medida a su logro número 4: **Educación de calidad.** Concretamente en los siguientes puntos:
 * **4.3 Asegurar el acceso igualitario a la formación superior:** De aquí a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional y superior de calidad, incluida la enseñanza universitaria.
@@ -12,7 +19,7 @@ El conjunto de lo anteriormente comentado convierte a la aplicación en un Recur
 
 A continuación, se van a presentar y explicar el uso de los diferentes menús, comenzando por el menú principal.
 
-## MENÚ PRINCIPAL.
+## Menú principal
 La Figura 1 muestra el menú principal. Desde el menú se puede acceder directamente a este mismo documento pulsando el botón **Instrucciones del programa**.
 
 ![Menu Principal](/assets/img/Fig1.png)
@@ -37,8 +44,10 @@ Por último, cada uno de los botones **Calculador** lanzan una nueva ventana aso
 
 A continuación, se explican detalladamente los menús que aparecen para el cálculo en los diferentes modos de operación.
 
-## RÉGIMEN DE EXCITACIÓN CONTINUA.
-El menú que aparece para la realización del cálculo de la resistencia térmica necesaria por un componente que se encuentra trabajando en un **RÉGIMEN DE EXCITACIÓN CONTINUA**, es el que se muestra en la Figura 3:
+## Menús modo de operación
+
+### Régimen de excitación continua
+El menú que aparece para la realización del cálculo de la resistencia térmica necesaria por un componente que se encuentra trabajando en un **Régimen de excitación continua**, es el que se muestra en la Figura 3:
 
 ![Menu Regimen de excitacion continua](/assets/img/Fig3.png)
 <p align = "center">Figura 3. – Menú para el cálculo de disipadores en dispositivos trabajando en régimen de excitación continua.</p>
@@ -46,18 +55,18 @@ El menú que aparece para la realización del cálculo de la resistencia térmic
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son los siguientes:
-* Tj: Temperatura máxima de la unión.
-* Ta: Temperatura ambiente.
-* P: Potencia que disipa el componente en régimen permanente de excitación continua.
-* Rjc: Resistencia térmica equivalente unión-cápsula.
-* Rcs: Resistencia térmica equivalente cápsula-disipador.
+* $T_j$: Temperatura máxima de la unión.
+* $T_a$: Temperatura ambiente.
+* $P$: Potencia que disipa el componente en régimen permanente de excitación continua.
+* $R_{jc}$: Resistencia térmica equivalente unión-cápsula.
+* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente (Rsa)**.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**.
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 
-## PULSO ÚNICO
-El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **PULSO ÚNICO**, es el que se muestra en la Figura 4:
+### Pulso único
+El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **Pulso único**, es el que se muestra en la Figura 4:
 
 ![Menu Regimen de excitacion continua](/assets/img/Fig4.png)
 <p align = "center">Figura 4. – Menú para el cálculo de disipadores en dispositivos sometido a un pulso único de potencia.</p>
@@ -65,30 +74,30 @@ El menú mostrado por la aplicación para el cálculo de la resistencia térmica
 Para realizar el cálculo de la sobrepotencia máxima, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son:
-* (Tj)max: Temperatura máxima de la unión.
-* Ta: Temperatura ambiente.
-* Voff: Tensión del componente cuando no está conduciendo.
-* I’on: Corriente en el instante de la sobrepotencia.
-* t’on: Tiempo que dura la situación de sobrepotencia.
-* t’1: Tiempo de conmutación off - on de la sobrepotenica.
-* t’2: Tiempo de conmutación on - off de la sobrepotenica.
-* D: Ciclo de trabajo del dispositivo.
-* Von: Tensión del componente cuando está conduciendo y operando en condiciones normales.
-* Ion: Corriente por el dispositivo cuando conduce en condiciones normales de trabajo.
-* f: Frecuencia de trabajo del dispositivo.
-* t1: Tiempo de conmutación off – on en condiciones normales de trabajo.
-* t2: Tiempo de conmutación on - off en condiciones normales de trabajo.
-* Rjc o Zjc(ton,D): Resistencia térmica equivalente unión-cápsula o impedancia térmica transitoria en régimen de trabajo de tren de pulsos. Dependiendo de las condiciones de trabajo a las que se encuentre sometido el dispositivo.
-* Rcs: Resistencia térmica equivalente cápsula-disipador.
-* Rsa: Resistencia térmica equivalente disipador-ambiente.
-* Zjc(ton): Impedancia térmica transitoria de pulso único.
+* $(T_j)_{\max}$: Temperatura máxima de la unión.
+* $T_a$: Temperatura ambiente.
+* $V_{off}$: Tensión del componente cuando no está conduciendo.
+* $I_{on}'$: Corriente en el instante de la sobrepotencia.
+* $t_{on}'$: Tiempo que dura la situación de sobrepotencia.
+* $t_1'$: Tiempo de conmutación off - on de la sobrepotenica.
+* $t_2'$: Tiempo de conmutación on - off de la sobrepotenica.
+* $D$: Ciclo de trabajo del dispositivo.
+* $V_{on}$: Tensión del componente cuando está conduciendo y operando en condiciones normales.
+* $I_{on}$: Corriente por el dispositivo cuando conduce en condiciones normales de trabajo.
+* $f$: Frecuencia de trabajo del dispositivo.
+* $t_1$: Tiempo de conmutación off – on en condiciones normales de trabajo.
+* $t_2$: Tiempo de conmutación on - off en condiciones normales de trabajo.
+* $R_{jc}$ o $Z_{jc}(t_{on},D)$: Resistencia térmica equivalente unión-cápsula o impedancia térmica transitoria en régimen de trabajo de tren de pulsos. Dependiendo de las condiciones de trabajo a las que se encuentre sometido el dispositivo.
+* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
+* $R_{sa}$: Resistencia térmica equivalente disipador-ambiente.
+* $Z_{jc}(t_{on})$: Impedancia térmica transitoria de pulso único.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente (Rsa)**, necesario para soportar la sobrepotencia correspondiente.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**, necesario para soportar la sobrepotencia correspondiente.
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 
-## TREN DE PULSOS.
-El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **TREN DE PULSOS**, es el que se muestra en la Figura 5:
+### Tren de pulsos
+El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **Tren de pulsos**, es el que se muestra en la Figura 5:
 
 ![Menu para calculo de Tren de pulsos](/assets/img/Fig5.png)
 <p align = "center">Figura 5. – Menú para el cálculo de disipadores en dispositivos sometido a un tren de pulsos de potencia.</p>
@@ -96,30 +105,30 @@ El menú mostrado por la aplicación para el cálculo de la resistencia térmica
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la casilla de abajo, correspondiente a la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son:
-* Tj: Temperatura máxima de la unión.
-* Ta: Temperatura ambiente.
-* Voff: Tensión del componente cuando no está conduciendo.
-* Ion: Corriente por el dispositivo cuando conduce. 
-* D: Ciclo de trabajo del dispositivo.
-* f: Frecuencia de trabajo del dispositivo.
-* t1: Tiempo de conmutación off – on en condiciones normales de trabajo.
-* t2: Tiempo de conmutación on - off en condiciones normales de trabajo.
+* $T_j$: Temperatura máxima de la unión.
+* $T_a$: Temperatura ambiente.
+* $V_{off}$: Tensión del componente cuando no está conduciendo.
+* $I_{on}$: Corriente por el dispositivo cuando conduce. 
+* $D$: Ciclo de trabajo del dispositivo.
+* $f$: Frecuencia de trabajo del dispositivo.
+* $t_1$: Tiempo de conmutación off – on en condiciones normales de trabajo.
+* $t_2$: Tiempo de conmutación on - off en condiciones normales de trabajo.
 * D: Ciclo de trabajo.
-* Zjc (ton,D): Impedancia térmica transitoria en régimen de trabajo de tren de pulsos.
-* Rcs: Resistencia térmica equivalente cápsula-disipador.
+* $Z_{jc}$ (ton,D): Impedancia térmica transitoria en régimen de trabajo de tren de pulsos.
+* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente (Rsa)**.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**.
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 
-## TRATAMIENTO DE ERRORES.
+## Tratamiento de errores
 Los errores que se pueden producir son los siguientes:
 * Al menos uno de los cuadros en destinados a introducir los valores necesarios para el cálculo de la resistencia térmica del disipador se encuentre vacía. En este caso aparece el mensaje mostrado en la Figura 6 dentro de la propia ventana del CdD.
 
 ![Error por asuncia/falta de parametros de entrada](/assets/img/Fig6.png)
 <p align = "center">Figura 6. – Mensaje de error en el proceso de cálculo por falta de al menos un valor en los cuadros de entrada de datos.</p>
 
-* También puede ocurrir que el resultado obtenido sea un valor negativo. Por ello se indica la solución en ROJO, resaltando que existe un error. Esto se acompaña con el mensaje “Hay un error en el cálculo, la Resistencia Térmica disipador-ambiente no puede tener un valor negativo”. Este hecho se muestra en la Figura 7.
+* También puede ocurrir que el resultado obtenido sea un valor negativo. Por ello se indica la solución en ROJO, resaltando que existe un error. Esto se acompaña con el mensaje “*Hay un error en el cálculo, la Resistencia Térmica disipador-ambiente no puede tener un valor negativo*”. Este hecho se muestra en la Figura 7.
 
 ![Error por valor Rsa negativo](/assets/img/Fig7.png) 
 <p align = "center">Figura 7. – Mensaje de error en el proceso de cálculo por resultado Rsa negativo.</p>
