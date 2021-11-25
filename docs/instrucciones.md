@@ -4,12 +4,13 @@
 
 # Manual de Usuario del Programa Calculador de Disipadores (CdD)
 
-- [Menú Principal](#menú-principal)
-- [Menús modo de operación](#menús-modo-de-operación)
+- [Manual de Usuario del Programa Calculador de Disipadores (CdD)](#manual-de-usuario-del-programa-calculador-de-disipadores-cdd)
+  - [Menú principal](#menú-principal)
+  - [Menús modo de operación](#menús-modo-de-operación)
     - [Régimen de excitación continua](#régimen-de-excitación-continua)
-    - [Púlso único](#pulso-único)
+    - [Pulso único](#pulso-único)
     - [Tren de pulsos](#tren-de-pulsos)
-- [Tratamiento de errores](#tratamiento-de-errores)
+  - [Tratamiento de errores](#tratamiento-de-errores)
 
 El presente documento contiene las instrucciones necesarias para el uso de la **aplicación Calculo de Disipadores (CdD)**, que sirve para calcular disipadores térmicos y para averiguar la sobrepotencia máxima que soportará un circuito integrado. Este cálculo se encuentra fuertemente ligado a la Electrónica de Potencia.
 
@@ -24,7 +25,7 @@ A continuación, se van a presentar y explicar el uso de los diferentes menús, 
 ## Menú principal
 La Figura 1 muestra el menú principal. Desde el menú se puede acceder directamente a este mismo documento pulsando el botón **Instrucciones del programa**.
 
-![Menu Principal](/assets/img/Fig1.png)
+![Menu Principal](/assets/img/instruct/Fig1.png)
 <p align = "center">Figura 1. – Menú Principal</p>
 
 Desde este menú se puede acceder a las diferentes funcionalidades de la aplicación. Comenzaremos explicando para que sirven los diferentes menús disponibles en el menú. 
@@ -39,7 +40,7 @@ Al lanzarse el documento frente al programa instalado por el usuario, la aplicac
 
 Los documentos de teoría tienen el siguiente aspecto:
 
-![Documentacion PDF](/assets/img/Fig2.png)
+![Documentacion PDF](/assets/img/instruct/Fig2.png)
 <p align="center">Figura 2. – Ejemplo de documento pdf con contenido teórico.</p>
 
 Por último, cada uno de los botones **Calculador** lanzan una nueva ventana asociada a cada uno de los modos de operación donde se recogerán los datos necesarios para la realización del calculo que permite obtener el valor de la resistencia térmica del disipador necesaria para un dispositivo, así como la sobrepotencia máxima que puede soportar un circuito integrado dependiendo de su régimen de funcionamiento.
@@ -51,7 +52,7 @@ A continuación, se explican detalladamente los menús que aparecen para el cál
 ### Régimen de excitación continua
 El menú que aparece para la realización del cálculo de la resistencia térmica necesaria por un componente que se encuentra trabajando en un **Régimen de excitación continua**, es el que se muestra en la Figura 3:
 
-![Menu Regimen de excitacion continua](/assets/img/Fig3.png)
+![Menu Regimen de excitacion continua](/assets/img/instruct/Fig3.png)
 <p align = "center">Figura 3. – Menú para el cálculo de disipadores en dispositivos trabajando en régimen de excitación continua.</p>
 
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
@@ -70,7 +71,7 @@ El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y 
 ### Pulso único
 El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **Pulso único**, es el que se muestra en la Figura 4:
 
-![Menu Regimen de excitacion continua](/assets/img/Fig4.png)
+![Menu Regimen de excitacion continua](/assets/img/instruct/Fig4.png)
 <p align = "center">Figura 4. – Menú para el cálculo de disipadores en dispositivos sometido a un pulso único de potencia.</p>
 
 Para realizar el cálculo de la sobrepotencia máxima, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
@@ -101,7 +102,7 @@ El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y 
 ### Tren de pulsos
 El menú mostrado por la aplicación para el cálculo de la resistencia térmica necesaria por un componente para una situación de **Tren de pulsos**, es el que se muestra en la Figura 5:
 
-![Menu para calculo de Tren de pulsos](/assets/img/Fig5.png)
+![Menu para calculo de Tren de pulsos](/assets/img/instruct/Fig5.png)
 <p align = "center">Figura 5. – Menú para el cálculo de disipadores en dispositivos sometido a un tren de pulsos de potencia.</p>
 
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la casilla de abajo, correspondiente a la etiqueta que se muestra en negrita.
@@ -127,11 +128,11 @@ El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y 
 Los errores que se pueden producir son los siguientes:
 * Al menos uno de los cuadros en destinados a introducir los valores necesarios para el cálculo de la resistencia térmica del disipador se encuentre vacía. En este caso aparece el mensaje mostrado en la Figura 6 dentro de la propia ventana del CdD.
 
-![Error por asuncia/falta de parametros de entrada](/assets/img/Fig6.png)
+![Error por asuncia/falta de parametros de entrada](/assets/img/instruct/Fig6.png)
 <p align = "center">Figura 6. – Mensaje de error en el proceso de cálculo por falta de al menos un valor en los cuadros de entrada de datos.</p>
 
 * También puede ocurrir que el resultado obtenido sea un valor negativo. Por ello se indica la solución en ROJO, resaltando que existe un error. Esto se acompaña con el mensaje “*Hay un error en el cálculo, la Resistencia Térmica disipador-ambiente no puede tener un valor negativo*”. Este hecho se muestra en la Figura 7.
 
-![Error por valor Rsa negativo](/assets/img/Fig7.png) 
+![Error por valor Rsa negativo](/assets/img/instruct/Fig7.png) 
 <p align = "center">Figura 7. – Mensaje de error en el proceso de cálculo por resultado Rsa negativo.</p>
 
