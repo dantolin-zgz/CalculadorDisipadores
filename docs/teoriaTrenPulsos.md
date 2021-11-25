@@ -23,6 +23,7 @@ Debido al mayor valor de las capacidades, se despreciarán en régimen permanent
   <img src="../assets/img/teoTrenPulsos/Fig2.png">
 </p>
 <p align = "center">Figura 2. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p> 
+
 $$
 p(t)=P+\sum_{n=1}^\infty P_n w_n
 $$

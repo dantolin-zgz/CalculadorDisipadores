@@ -15,6 +15,7 @@ El modelo de conducción térmica caracterizado por un circuito puramente resist
 La cápsula y el disipador presentan fuertes inercias a variaciones de temperatura por lo que la cápsula y el disipador permanecen a temperatura ambiente, $$T_a$$, en el caso de pulso único.
 
 De acuerdo con el teorema de superposición, cualquier variable de un circuito se expresa en el campo transformado como la superposición de los generadores independientes, las temperaturas de la unión y de la cápsula, así como su diferencia, vendrán dadas por:
+
 $$T_j(s)=P(s) \cdot Z_j'(s); \quad Tc(s)=P(s)\cdot Z_c'(s)$$
 $$T_j(s)-T_c(s)=P(s)\cdot [Z_j'(s)-Z' c(s)]$$
 $$T_{jc}(s)=P(s)\cdot Z_{jc}'(s)$$
@@ -26,6 +27,7 @@ P(s)=\frac{P}{S}; \quad T_{jc}(s)=P \cdot \frac{Z_{jc}'(s)}{S}
 $$
 $$T_{jc}(t)=P \cdot £^{-1}\frac{Z_{jc}'(s)}{S}=P \cdot Z_{jc}(t)
 $$
+
 Donde $$P=P_{on}$$, potencia en el nivel alto del pulso y $$Z_{jc}(t)$$ es la **impedancia térmica transitoria unión-cápsula de pulso único**.
 Para un pulso de larga duración, puede considerarse el efecto único de la capacidad térmica asociada a la unión, dado su menor valor, mientras que los otros condensadores pueden suponerse cortocircuitos, lo que significa admitir que la cápsula y el posible disipador permanecen a temperatura ambiente, consecuentemente con la inercia propia de estas regiones. En estas condiciones el sistema resulta de primer orden, con lo cual:
 $$
@@ -50,6 +52,7 @@ $$
 $$
 P_{\text{lim}}=\frac{\tau}{t_{on}}\frac{(T_{j})_{\max}-T_a}{R_{jc}}=\frac{\tau}{t_{on}}P_{\max} \gg P_{\max}
 $$
+
 Siendo $$P_{\max}$$ la potencia máxima en operación continua.
 
 <p align="center">
@@ -62,6 +65,7 @@ Por consiguiente, para tiempos de conducción ($$t_{on}\ll\tau $$), el hecho de 
 Sin embargo, el caso más habitual de pulso único de corta duración e intensidad elevada corresponde a un proceso transitorio superpuesto a una situación de conducción limitada. Análogamente a la situación analizada con anterioridad, la temperatura de la cápsula, $$T_c$$, puede suponerse inalterada por el transitorio, por lo que las variaciones térmicas asociadas a un incremento de potencia $$\Delta P$$ quedan restringidas a la unión, de modo que puede considerarse como superposición a un régimen permanente.
  
 Por consiguiente, la disponibilidad límite de potencia, $$\Delta P_\text{lim}$$, asociada a la máxima variación del gradiente térmico unión-cápsula, resulta determinada por el margen entre la temperatura de la unión correspondiente al proceso permanente, $$T_j$$, y su valor máximo $$(T_{j})_{\max}$$, de la forma:
+
 $$
 \Delta(T_{jc})_{\max}=\Delta(T_{j})_{\max}-T_c=(T_{j})_{\max}-T_j=\Delta P_\text{lim}\cdot Z_{jc}(t_{on})
 $$
