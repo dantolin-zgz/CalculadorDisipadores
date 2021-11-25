@@ -8,10 +8,9 @@ El modelo de conducción térmica caracterizado por un circuito puramente resist
 <p align="center">
   <img src="../assets/img/teoPulsoUnico/Fig1.png">
 </p>
-
 <p align = "center">Figura 1. – Circuito eléctronico equivalente al comportamiento térmico.</p> 
 
-<justity> La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito. </justity>
+ La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito.
 
 La cápsula y el disipador presentan fuertes inercias a variaciones de temperatura por lo que la cápsula y el disipador permanecen a temperatura ambiente, $T_a$, en el caso de pulso único.
 
@@ -36,7 +35,9 @@ $$
 T_{jc}(t)=P \cdot Z_{jc}(t)=P \cdot R_{jc}(1-e^{-t_{on}⁄\tau} )<P \cdot R_{jc}
 $$
 
-![Circuito transitorio equivalente](/assets/img/teoPulsoUnico/Fig2.png)
+<p align="center">
+  <img src="../assets/img/teoPulsoUnico/Fig2.png">
+</p>
 <p align = "center">Figura 2. – Circuito transitorio eléctronico equivalente.</p> 
 
 El gradiente térmico unión-cápsula tiende al valor de régimen permanente $P \cdot R_{jc}$, de acuerdo con el modelo de circuito resistivo, siendo valores típicos de la constante de tiempo esencialmente inferiores a 1s en componentes de alta potencia. En relación con la expresión anterior, el gradiente térmico máximo unión-cápsula, $(T_{jc})_{\max}$, correspondiente a la temperatura máxima de la unión, $(T_{j})_{\max}$, establecerá el límite de potencia $P_{\text{lim}}$, de pulso de duración $t_{on}$:
@@ -51,7 +52,9 @@ P_{\text{lim}}=\frac{\tau}{t_{on}}\frac{(T_{j})_{\max}-T_a}{R_{jc}}=\frac{\tau}{
 $$
 Siendo $P_{\max}$ la potencia máxima en operación continua.
 
-![Circuito incremental transitorio equivalente](/assets/img/teoPulsoUnico/Fig3.png)
+<p align="center">
+  <img src="../assets/img/teoPulsoUnico/Fig3.png">
+</p>
 <p align = "center">Figura 3. – Circuito eléctronico equivalente para el incremento en la disipación de potencia.</p> 
 
 Por consiguiente, para tiempos de conducción ($t_{on}\ll\tau $), el hecho de que la impedancia térmica resulte muy inferior al valor de la correspondiente resistencia, $Z_{jc}(t_{on}) \ll R_{jc}$, determina que la potencia disipada pueda ser bastante mayor que el valor máximo en régimen de operación continua, sin que ello suponga la elevación de la temperatura de la unión por encima de su valor máximo, $(T_{j})_{\max}$, lo que supondría la destrucción del componente.
