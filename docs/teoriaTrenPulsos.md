@@ -3,7 +3,7 @@
 ## Impedancia térmica transitoria (tren de pulsos)
 
 La aproximación ideal de la onda de potencia supone incluir en el valor permanente de conducción la contribución de los transitorios de conmutación.
-Por tanto, se utiliza un **valor equivalente de la potencia instantánea en conducción**, $P_{on}$, relacionado con la potencia media, $P$.
+Por tanto, se utiliza un **valor equivalente de la potencia instantánea en conducción**, $$P_{on}$$, relacionado con la potencia media, $$P$$.
 $$
 P=\frac{1}{T} \int_0^{t_{on}}P_{on} \cdot dt =D \cdot P_{on}, \quad P_{on}=\frac{P}{D}, \quad D=\frac{t_{on}}{T}
 $$
@@ -28,7 +28,7 @@ $$
 $$
 C_j\ll C_c\ll C_s
 $$
-Las impedancias de los condensadores son del tipo $\mid Z \mid=\frac{1}{C \cdot \omega}$. $C_c$ y $C_s$ son lo suficientemente grandes como para considerar que a frecuencias bajas $Z_c$ y $Z_s$ tienden a $0$, se comportan como cortocircuitos.
+Las impedancias de los condensadores son del tipo $$\mid Z \mid=\frac{1}{C \cdot \omega}$$. $$C_c$$ y $$C_s$$ son lo suficientemente grandes como para considerar que a frecuencias bajas $$Z_c$$ y $$Z_s$$ tienden a $$0$$, se comportan como cortocircuitos.
 
 Dado que el problema puede dividirse en una situación continua más una variable en régimen permanente con un nivel de continua asociado y cada una puede asociarse a distintos elementos del circuito, dividimos el circuito y analizamos el problema por separado.
 
@@ -49,14 +49,14 @@ Circuito asociado a las variaciones de temperatura en la unión.
 Circuito asociado a las temperaturas constantes de la cápsula y el disipador.
 
 ## Analizando la sicuación de la unión:
-- Intervalo $t_{on}$ → Intervalo de carga de $C_j$:
+- Intervalo $$t_{on}$$ → Intervalo de carga de $$C_j$$:
 $$
 T_{jc}(t)=T_{jc}(\infty)+[T_{jc}(0)-T_{jc}(\infty)] e^{-t⁄\tau}
 $$
 $$
 T_{jc}(t)=P_{on} \cdot R_{jc}+[T_{jc}(0)-P_{on} \cdot R_{jc}] e^{-t⁄\tau}
 $$
-- Intervalo $t_{off}$ → Intervalo de descarga de $C_j$:
+- Intervalo $t_{off}$ → Intervalo de descarga de $$C_j$$:
 $$
 T_{jc}(t)=T_{jc}(0)e^{-t⁄\tau}
 $$
@@ -64,13 +64,13 @@ De estas expresiones se obtiene:
 $$
 (T_{jc})_{\max}=P_{on} \cdot R_{jc} \frac{1-e^{-t_{on}⁄\tau}}{1-e{-t⁄\tau}}=P_{on} \cdot Z_{jc}
 $$
-Siendo $P_{on}$ la potencia instantánea equivalente en conducción y $Z_{jc}$ la **impedancia térmica transitoria unión-cápsula en situación pulsante**.
+Siendo $$P_{on}$$ la potencia instantánea equivalente en conducción y $$Z_{jc}$$ la **impedancia térmica transitoria unión-cápsula en situación pulsante**.
 
-Esta impedancia depende del tiempo de conducción, $t_{on}$ y del ciclo de trabajo $D$ del componente, de modo que:
+Esta impedancia depende del tiempo de conducción, $$t_{on}$$ y del ciclo de trabajo $$D$$ del componente, de modo que:
 $$
 Z_{jc}=Z_{jc}(t_{on},D)=R_{jc} \frac{1-e^{-t_{on}⁄\tau}}{1-e^{-T⁄\tau}}=R_{jc} \frac{1-e^{-t_{on}⁄\tau}} {1-e^{-t⁄D\tau}} < R_{jc}
 $$
-De acuerdo con este resultado, las curvas de impedancia térmica $Z_{jc}(t_{on},D)$ relativas a la correspondiente resistencia $R_{jc}$ y, por tanto, normalizadas a la unidad, se representan en la siguiente figura, tomando el ciclo de trabajo $D$ como parámetro.
+De acuerdo con este resultado, las curvas de impedancia térmica $$Z_{jc}(t_{on},D)$$ relativas a la correspondiente resistencia $$R_{jc}$$ y, por tanto, normalizadas a la unidad, se representan en la siguiente figura, tomando el ciclo de trabajo $$D$$ como parámetro.
 
 <p align="center">
   <img src="../assets/img/teoTrenPulsos/Fig5.png">
