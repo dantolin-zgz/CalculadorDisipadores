@@ -8,7 +8,7 @@ $$
 P=\frac{1}{T} \int_0^{t_{on}}P_{on} \cdot dt =D \cdot P_{on}, \quad P_{on}=\frac{P}{D}, \quad D=\frac{t_{on}}{T}
 $$
 Donde $P$ es la resultante de los términos estacionario y de conmutación.
-![Comportamiento teSrmico](/assets/img/teoTrenPulsos/Fig1.png)
+![Comportamiento termico](/assets/img/teoTrenPulsos/Fig1.png)
 <p align = "center">Figura 1. – Comportamiento térmico de un integrado frente a un tren de pulsos.</p> 
  
 Con la excitación indicada, la situación puede explicarse mediante un proceso repetitivo de carga-descarga de las capacidades del circuito equivalente, en correspondencia con los intervalos de calentamiento y enfriamiento, respectivamente, de modo que el gradiente térmico unión-cápsula, $T_{jc}$, va elevándose hasta estabilizarse en un régimen permanente de sucesivas fluctuaciones (rizado) alrededor de un valor medio, donde éste es la respuesta estacionaria a la componente continua de excitación y, por consiguiente, con los condensadores en circuito abierto. Sin embargo, ese valor medio del gradiente térmico puede ser poco relevante en el caso de que las fluctuaciones sean importantes, por lo que resulta de interés determinar el correspondiente valor máximo.
