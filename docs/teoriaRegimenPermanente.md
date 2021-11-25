@@ -1,11 +1,13 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Limitación de potencia máxima capaz de disipar un dispositivo en régimen de excitación continua
-El valor máximo de la temperatura de operación, también denominada **temperatura de la unión**, \$T_j$, determina la potencia máxima que puede disipar el componente.
+El valor máximo de la temperatura de operación, también denominada **temperatura de la unión**, $$T_j$$, determina la potencia máxima que puede disipar el componente.
 Cuando el componente conduce, se produce una absorción de potencia en las uniones que origina un calentamiento en su estructura interna, de modo que un flujo de calor sale hacia el exterior, su valor resulta proporcional a la diferencia de temperaturas entre el interior, $T_j$, y la cápsula externa, $T_c$. En régimen estacionario se establece un equilibrio térmico en el que el flujo hacia el exterior compensa exactamente el que se genera en el interior, siendo éste proporcional a la potencia $P$ disipada en las uniones:
+
 $$
 T_j-T_c=R_{jc} \cdot P
 $$
+
 Donde $R_{jc}$ (°C/W) representa la **resistencia térmica** unión-cápsula.
 
 Para cada valor de $T_c$, existe un límite de potencia, $P_\text{lim}$, correspondiente a la **máxima temperatura de operación**, $(T_j)_{\max}$. Ese límite resulta tanto mayor cuanto menor es la temperatura de la cápsula externa, $T_c$, de modo que el valor mínimo de ésta, coincidente con la temperatura ambiente (típicamente 25°C), $T_a$, define el valor medio límite de **máxima potencia** que puede disipar el componente, $P_{\max}$:
