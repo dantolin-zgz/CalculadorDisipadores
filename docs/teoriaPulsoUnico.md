@@ -5,10 +5,19 @@
 # Impedancia térmica transitoria (Pulso único)
 El modelo de conducción térmica caracterizado por un circuito puramente resistivo, solamente es válido con una excitación estática en régimen permanente y se corresponde con la situación de equilibrio térmico entre el flujo de calor generado en el interior y el que se propaga hacia el exterior. La inercia propia del sistema a la elevación de temperaturas, con el consiguiente proceso transitorio de propagación, puede caracterizarse mediante la inclusión de condensadores en el correspondiente circuito térmico equivalente. 
 
-<p align = "center">![Cirquito eléctrico equivalente](/assets/img/teoPulsoUnico/Fig1.png)</p> 
+<!---  
+<p style='text-align: center;'> ![Cirquito eléctrico equivalente](/assets/img/teoPulsoUnico/Fig1.png) </p>
+
+<p align = "center">![Cirquito eléctrico equivalente](/assets/img/teoPulsoUnico/Fig1.png)</p>
+--> 
+
+<p align="center">
+  <img src="/assets/img/teoPulsoUnico/Fig1.png">
+</p>
+<!--![Cirquito eléctrico equivalente](/assets/img/teoPulsoUnico/Fig1.png)-->
 <p align = "center">Figura 1. – Circuito eléctronico equivalente al comportamiento térmico.</p> 
 
-La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito.
+<justity> La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito. </justity>
 
 La cápsula y el disipador presentan fuertes inercias a variaciones de temperatura por lo que la cápsula y el disipador permanecen a temperatura ambiente, $T_a$, en el caso de pulso único.
 
