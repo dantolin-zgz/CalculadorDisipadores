@@ -4,13 +4,12 @@
 
 # Manual de Usuario del Programa Calculador de Disipadores (CdD)
 
-- [Manual de Usuario del Programa Calculador de Disipadores (CdD)](#manual-de-usuario-del-programa-calculador-de-disipadores-cdd)
-  - [Menú principal](#menú-principal)
-  - [Menús modo de operación](#menús-modo-de-operación)
-    - [Régimen de excitación continua](#régimen-de-excitación-continua)
-    - [Pulso único](#pulso-único)
-    - [Tren de pulsos](#tren-de-pulsos)
-  - [Tratamiento de errores](#tratamiento-de-errores)
+- [Menú principal](#menú-principal)
+- [Menús modo de operación](#menús-modo-de-operación)
+  - [Régimen de excitación continua](#régimen-de-excitación-continua)
+  - [Pulso único](#pulso-único)
+  - [Tren de pulsos](#tren-de-pulsos)
+- [Tratamiento de errores](#tratamiento-de-errores)
 
 El presente documento contiene las instrucciones necesarias para el uso de la **aplicación Calculo de Disipadores (CdD)**, que sirve para calcular disipadores térmicos y para averiguar la sobrepotencia máxima que soportará un circuito integrado. Este cálculo se encuentra fuertemente ligado a la Electrónica de Potencia.
 
@@ -64,13 +63,13 @@ El menú que aparece para la realización del cálculo de la resistencia térmic
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son los siguientes:
-* $T_j$: Temperatura máxima de la unión.
-* $T_a$: Temperatura ambiente.
-* $P$: Potencia que disipa el componente en régimen permanente de excitación continua.
-* $R_{jc}$: Resistencia térmica equivalente unión-cápsula.
-* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
+* $$T_j$$: Temperatura máxima de la unión.
+* $$T_a$$: Temperatura ambiente.
+* $$P$$: Potencia que disipa el componente en régimen permanente de excitación continua.
+* $$R_{jc}$$: Resistencia térmica equivalente unión-cápsula.
+* $$R_{cs}$$: Resistencia térmica equivalente cápsula-disipador.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente** ($$R_{sa}$$).
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 
@@ -85,25 +84,25 @@ El menú mostrado por la aplicación para el cálculo de la resistencia térmica
 Para realizar el cálculo de la sobrepotencia máxima, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la parte inferior de la ventana, indicado por la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son:
-* $(T_j)_{\max}$: Temperatura máxima de la unión.
-* $T_a$: Temperatura ambiente.
-* $V_{off}$: Tensión del componente cuando no está conduciendo.
-* $I_{on}'$: Corriente en el instante de la sobrepotencia.
-* $t_{on}'$: Tiempo que dura la situación de sobrepotencia.
-* $t_1'$: Tiempo de conmutación off - on de la sobrepotenica.
-* $t_2'$: Tiempo de conmutación on - off de la sobrepotenica.
-* $D$: Ciclo de trabajo del dispositivo.
-* $V_{on}$: Tensión del componente cuando está conduciendo y operando en condiciones normales.
-* $I_{on}$: Corriente por el dispositivo cuando conduce en condiciones normales de trabajo.
-* $f$: Frecuencia de trabajo del dispositivo.
-* $t_1$: Tiempo de conmutación off – on en condiciones normales de trabajo.
-* $t_2$: Tiempo de conmutación on - off en condiciones normales de trabajo.
-* $R_{jc}$ o $Z_{jc}(t_{on},D)$: Resistencia térmica equivalente unión-cápsula o impedancia térmica transitoria en régimen de trabajo de tren de pulsos. Dependiendo de las condiciones de trabajo a las que se encuentre sometido el dispositivo.
-* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
-* $R_{sa}$: Resistencia térmica equivalente disipador-ambiente.
-* $Z_{jc}(t_{on})$: Impedancia térmica transitoria de pulso único.
+* $$(T_j)_{\max}$$: Temperatura máxima de la unión.
+* $$T_a$$: Temperatura ambiente.
+* $$V_{off}$$: Tensión del componente cuando no está conduciendo.
+* $$I_{on}'$$: Corriente en el instante de la sobrepotencia.
+* $$t_{on}'$$: Tiempo que dura la situación de sobrepotencia.
+* $$t_1'$$: Tiempo de conmutación off - on de la sobrepotenica.
+* $$t_2'$$: Tiempo de conmutación on - off de la sobrepotenica.
+* $$D$$: Ciclo de trabajo del dispositivo.
+* $$V_{on}$$: Tensión del componente cuando está conduciendo y operando en condiciones normales.
+* $$I_{on}$$: Corriente por el dispositivo cuando conduce en condiciones normales de trabajo.
+* $$f$$: Frecuencia de trabajo del dispositivo.
+* $$t_1$$: Tiempo de conmutación off – on en condiciones normales de trabajo.
+* $$t_2$$: Tiempo de conmutación on - off en condiciones normales de trabajo.
+* $$R_{jc}$$ o $$Z_{jc}(t_{on},D)$$: Resistencia térmica equivalente unión-cápsula o impedancia térmica transitoria en régimen de trabajo de tren de pulsos. Dependiendo de las condiciones de trabajo a las que se encuentre sometido el dispositivo.
+* $$R_{cs}$$: Resistencia térmica equivalente cápsula-disipador.
+* $$R_{sa}$$: Resistencia térmica equivalente disipador-ambiente.
+* $$Z_{jc}(t_{on})$$: Impedancia térmica transitoria de pulso único.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**, necesario para soportar la sobrepotencia correspondiente.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($$R_{sa}$$)**, necesario para soportar la sobrepotencia correspondiente.
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 
@@ -118,19 +117,19 @@ El menú mostrado por la aplicación para el cálculo de la resistencia térmica
 Para realizar el cálculo, basta con introducir los parámetros requeridos y presionar el botón **Calcular**, entonces el resultado aparece en la casilla de abajo, correspondiente a la etiqueta que se muestra en negrita.
 
 Los parámetros a introducir en este menú son:
-* $T_j$: Temperatura máxima de la unión.
-* $T_a$: Temperatura ambiente.
-* $V_{off}$: Tensión del componente cuando no está conduciendo.
-* $I_{on}$: Corriente por el dispositivo cuando conduce. 
-* $D$: Ciclo de trabajo del dispositivo.
-* $f$: Frecuencia de trabajo del dispositivo.
-* $t_1$: Tiempo de conmutación off – on en condiciones normales de trabajo.
-* $t_2$: Tiempo de conmutación on - off en condiciones normales de trabajo.
+* $$T_j$$: Temperatura máxima de la unión.
+* $$T_a$$: Temperatura ambiente.
+* $$V_{off}$$: Tensión del componente cuando no está conduciendo.
+* $$I_{on}$$: Corriente por el dispositivo cuando conduce. 
+* $$D$$: Ciclo de trabajo del dispositivo.
+* $$f$$: Frecuencia de trabajo del dispositivo.
+* $$t_1$$: Tiempo de conmutación off – on en condiciones normales de trabajo.
+* $$t_2$$: Tiempo de conmutación on - off en condiciones normales de trabajo.
 * D: Ciclo de trabajo.
-* $Z_{jc}$ (ton,D): Impedancia térmica transitoria en régimen de trabajo de tren de pulsos.
-* $R_{cs}$: Resistencia térmica equivalente cápsula-disipador.
+* $$Z_{jc}$$ (ton,D): Impedancia térmica transitoria en régimen de trabajo de tren de pulsos.
+* $$R_{cs}$$: Resistencia térmica equivalente cápsula-disipador.
 
-El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($R_{sa}$)**.
+El resultado se muestra en la negrita junto con la etiqueta **Resistencia térmica disipador ambiente ($$R_{sa}$$)**.
 
 El botón **Inicio** devuelve el programa al Menú principal (menú anterior) y el botón **Salir** cierra el programa. Estos dos botones funcionan del mismo modo en todos los menús.
 

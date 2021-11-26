@@ -4,6 +4,7 @@
 
 La aproximación ideal de la onda de potencia supone incluir en el valor permanente de conducción la contribución de los transitorios de conmutación.
 Por tanto, se utiliza un **valor equivalente de la potencia instantánea en conducción**, $$P_{on}$$, relacionado con la potencia media, $$P$$.
+
 $$
 P=\frac{1}{T} \int_0^{t_{on}}P_{on} \cdot dt =D \cdot P_{on}, \quad P_{on}=\frac{P}{D}, \quad D=\frac{t_{on}}{T}
 $$
@@ -38,7 +39,7 @@ Si $$C_c$$ y $$C_s$$ son lo suficientemente grandes como para considerar que a f
 
 Dado que el problema puede dividirse en una situación continua más una variable en régimen permanente con un nivel de continua asociado y cada una puede asociarse a distintos elementos del circuito, dividimos el circuito y analizamos el problema por separado.
 
-## Componente intremental
+## Componente incremental
 <p align="center">
   <img src="../assets/img/teoTrenPulsos/Fig3.png">
 </p>
@@ -54,7 +55,7 @@ Circuito asociado a las variaciones de temperatura en la unión.
 
 Circuito asociado a las temperaturas constantes de la cápsula y el disipador.
 
-## Analizando la sicuación de la unión:
+## Analizando la situación de la unión:
 - Intervalo $$t_{on}$$ → Intervalo de carga de $$C_j$$:
 
 $$

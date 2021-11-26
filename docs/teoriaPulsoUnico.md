@@ -8,7 +8,7 @@ El modelo de conducción térmica caracterizado por un circuito puramente resist
 <p align="center">
   <img src="../assets/img/teoPulsoUnico/Fig1.png">
 </p>
-<p align = "center">Figura 1. – Circuito eléctronico equivalente al comportamiento térmico.</p> 
+<p align = "center">Figura 1. – Circuito electrónico equivalente al comportamiento térmico.</p> 
 
  La inercia térmica aumenta con la superficie de las zonas que soportan el flujo de propagación, por lo que la capacidad asociada al nudo de la unión será de menor valor que las restantes del circuito.
 
@@ -22,6 +22,7 @@ $$T_{jc}(s)=P(s)\cdot Z_{jc}'(s)$$
 
 Donde $$Z_{jc}'(s)$$ es la impedancia térmica operacional.
 Suponiendo una excitación estática, la situación puede expresarse de la forma:
+
 $$
 P(s)=\frac{P}{S}; \quad T_{jc}(s)=P \cdot \frac{Z_{jc}'(s)}{S}
 $$
@@ -30,6 +31,7 @@ $$
 
 Donde $$P=P_{on}$$, potencia en el nivel alto del pulso y $$Z_{jc}(t)$$ es la **impedancia térmica transitoria unión-cápsula de pulso único**.
 Para un pulso de larga duración, puede considerarse el efecto único de la capacidad térmica asociada a la unión, dado su menor valor, mientras que los otros condensadores pueden suponerse cortocircuitos, lo que significa admitir que la cápsula y el posible disipador permanecen a temperatura ambiente, consecuentemente con la inercia propia de estas regiones. En estas condiciones el sistema resulta de primer orden, con lo cual:
+
 $$
 Z_{jc}=Z_{jc}(t)=R_{jc}(1-e^{-t_{on}⁄\tau})
 $$
@@ -43,6 +45,7 @@ $$
 <p align = "center">Figura 2. – Circuito transitorio eléctronico equivalente.</p> 
 
 El gradiente térmico unión-cápsula tiende al valor de régimen permanente $$P \cdot R_{jc}$$, de acuerdo con el modelo de circuito resistivo, siendo valores típicos de la constante de tiempo esencialmente inferiores a 1s en componentes de alta potencia. En relación con la expresión anterior, el gradiente térmico máximo unión-cápsula, $$(T_{jc})_{\max}$$, correspondiente a la temperatura máxima de la unión, $$(T_{j})_{\max}$$, establecerá el límite de potencia $$P_{\text{lim}}$$, de pulso de duración $$t_{on}$$:
+
 $$
 P_{\text{lim}}=\frac{(T_{jc})_{\max}}{Z_{jc}(t_{on})}=\frac{(T_{j})_{\max}-T_a}{Z_{jc}(t_{on})}>\frac{(T_{j})_{\max}-T_a}{R_{jc}}=P_{\max}
 $$
@@ -72,6 +75,7 @@ $$
 $$
 \Delta P_\text{lim}=\frac{(T_{j})_{\max}-T_j}{Z_{jc}(t_{on})}
 $$
+
 De modo que esta expresión coincide con la correspondiente a una conducción de pulso único, situación con anterioridad, sin más que hacer $$T_j=T_a$$.
 Se deduce, pues, que la posibilidad de soportar picos importantes de potencia es función tanto de la impedancia térmica transitoria de pulso único, $$Z_{jc}$$, cuya dependencia temporal es dada por el fabricante, como del hecho de establecer una operación permanente con una temperatura de la unión, $$T_j$$, esencialmente inferior a su valor máximo.
 
