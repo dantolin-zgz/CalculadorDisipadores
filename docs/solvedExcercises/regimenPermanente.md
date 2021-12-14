@@ -14,21 +14,22 @@
 
 La Figura 1 muestra el esquema conceptual del circuito con los valores de funcionamiento del mismo, mientras que la Figura 2 presenta las señales de conmutación.
 <p align="center">
-  <img src="../assets/img/teoPulsoUnico/Fig1.png">
+  <img src="../../assets/img/regPer/Ej Fig1.png">
 </p>
-<p align = "center">Figura 1. – Circuito electrónico equivalente al comportamiento térmico.AUN SIN PONER IMAGEN</p> 
+<p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
 
 <p align="center">
-  <img src="../assets/img/teoPulsoUnico/Fig1.png">
+  <img src="../../assets/img/regPer/Ej Fig2.png">
 </p>
-<p align = "center">Figura 2. – Circuito electrónico equivalente al comportamiento térmico.AUN SIN PONER IMAGEN</p>
+<p align = "center">Figura 2. – Formas de onda de la conmutación.</p>
 
 Los parámetros de funcionamiento del circuito y de los componentes son los siguientes:
 * Tensión de bloque (no conducción: $V_{OFF}=60 V$
 * Tensión de conducción:            $V_{ON}=2 V$
 * Frecuencia de operación: $f=50kHz$
 * Ciclo de trabajo: $D=0.5$
+* Temperatura máxima de la unión: $(T_j)_{MAX}$
 * Resistencia Térmica Unión-Cápsula: $R_{jc}=1ºC/W$
 * Resistencia Térmica Cápsula-Disipador: $R_{cs}=0.2ºC/W$
 
@@ -51,4 +52,46 @@ $$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)$$
 Sustituyendo valores:
 $$P=0.5 \cdot 20A \cdot 2V+\frac 16 \cdot 60V \cdot 50kHz \cdot(1\mu s+1\mu s)=20W+20W=40W$$
 
-\cdot  \quad
+
+**2. Potencia instantánea equivalente en conducción, suponiendo conmutación ideal.**
+
+La potencia instantanea equivalente en conducción $((P_{ON})_{EQUIV})$ se muestra definida en la Figura 3.
+
+<p align="center">
+  <img src="../../assets/img/regPer/Ej Fig3.png">
+</p>
+<p align = "center">Figura 3. – Formas de onda para el calculo de la potencia instantanea equivalente en conducción.</p> 
+
+Para que la potencia media sea igual a la calculada en el caso anterior se tiene que cumplir:
+$$P= \frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot dt=\frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot \dfrac {t_{ON}} T= ((P_{ON})_{EQUIV}) \cdot D $$
+
+Como la potencia media tiene que ser igual tanto en esta expresión como en la calculada en el apartado anterior, si despejamos $((P_{ON})_{EQUIV})$ obtenermos:
+
+$$((P_{ON})_{EQUIV})= \frac PD=$$
+
+Sustituyendo por los valores del caso propuesto:
+
+$$((P_{ON})_{EQUIV})= \frac {40W}{0.5}=80W$$
+
+**3. Disipador requerido suponiendo temperatura ambiente de 30ºC.**
+
+Finalmente se procede a calcular el disipador. Como el sistema esta operando a frecuencias elevadas el modelo térmico utilizado es el puramente resistivo. Este modelo se muestra en la Figura 4.
+
+<p align="center">
+  <img src="../../assets/img/regPer/Ej Fig4.png">
+</p>
+<p align = "center">Figura 4. – Circuito electrónico equivalente al comportamiento térmico.</p>
+
+Aplicamos para obtener el valor del disipador las ecuaciones correspondientes al modelo térmico, en este caso:
+
+$$(T_j-T_a)=P \cdot (R_{jc}+R_{cs}+R_{sa})$$
+$$(T_j)_{MAX}-T_a=P_{LIM}\cdot (1ºC/W+0.2ºC/W+R_{sa})$$
+$$150ºC-30ºC=40W \cdot (1ºC/W+0.2ºC/W+R_{sa})$$
+$$ \frac {150ºC-30ºC}{40W}=(1.2ºC/W+R_{sa})$$
+$$ R_{sa} = \frac {150ºC-30ºC}{40W}-1.2ºC/W=1.8ºC/W$$
+
+Con esta información podemos calcular la temperatura del disipador:
+$$T_s-T_a=P \cdot R_{sa}$$
+$$T_s=P \cdot R_{sa}-T_a=40W \cdot 1.8ºC/W-30ºC=102ºC$$
+
+El disipador se encontrará aproximadamente a 102ºC con una temperatura ambiente de 30ºC.
