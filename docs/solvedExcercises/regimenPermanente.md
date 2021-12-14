@@ -3,3 +3,6 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 # Ejercicio ejemplo para el cálculo de disipadores para un dispositivo trabajando en régimen permanente
+
+**Suponiendo la conmutación del interruptor indicado en la Figura 1, calcular:**
+* 1. **Potencia media disipada en el interruptor.**
