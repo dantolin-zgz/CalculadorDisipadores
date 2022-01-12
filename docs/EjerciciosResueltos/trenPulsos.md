@@ -108,8 +108,35 @@ Las capacidades térmicas de la cápsula y del disipador son mucho mayores por l
 El valor máximo del gradiente témico de la unión-cápsula en régimen permanente, definido como $({T_{JC}})_{MAX}$, viene determinado por la siguiente expresión:
 $$({T_{JC}})_{MAX} = P_{ON} \cdot R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}}=P_{ON} \cdot Z_{JC}   \;\;\;(9)$$
 
-Siendo $Z_{JC}$ la impedancia térmica transitoria unión cápsula en situación pulsante
+Siendo $Z_{JC}$ la impedancia térmica transitoria unión cápsula en situación pulsante, $\tau$ la constante de tiempo térmica del circuito y $P_{ON}$ la potencia instantanea equivalente en conducción.
+
+Dado que la impedancia térmica depende del tiempo de conducción, $t_{ON}$, y del ciclo de trabajo, $D$, la expresión queda definida del siguiente modo:
 
 $$Z_{JC}=Z_{JC}(t_{ON},D)=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}}=R_{JC}\cdot  \frac{1-e^{-t_{ON}⁄\tau}} {1-e^{-t⁄D\tau}}\;\;\;(10)$$
+
+Partiendo de este resultado se muestran las curvas relativas a la impedancia térmica $Z_{JC}(t_{ON},D)=R_{JC}$ relativas a la resistencia térmica $R_{JC} normalizadas a la unidad se representan en la Figura 8 tomando como parámetro el ciclo de trabajo.
+
+<p align="center">
+  <img src="../../assets/img/teoTrenPulsos/Fig5.png">
+</p>
+<p align = "center">Figura 8. – Impedancia térmica transitoria unión-cápsula del pulso y ciclo de trabajo.</p>
+
+Cuando la frecuencia de operación es elevada $T<<\tau$ se obtiene:
+
+$$T=(1 / f_s)<< \tau:\;Z_{JC}=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}} \approx R_{JC}\cdot  \frac{1-{[1-{t_{ON}}⁄\tau}]} {1-{[1-T  /\tau}]} = R_{JC}\cdot \frac {t_{ON}} T = D \cdot R_{JC}\;\;\;(11)$$
+
+El gradiente térmico máximo unión-cápsula para frecuencias elevadas viene determinado por la expresión:
+ $$ (T_{JC})_{MAX}=(T_J)_{MAX}-T_C=P_{ON} \cdot Z_{JC}= P \cdot R_{JC}\;\;\;(12)$$
+
+ En la situación de frecuencia elevada, el valor máximo del gradiente térmico unión-cápsula coincide prácticamente con su valor medio. Esto implica que que las variaciones de la temperatura de la unión resultan despreciables. Esto se deba a que a frecuencias elevadas todos los condensadores, incluido el asociado a la unión-cápsula se comportan como un cortocircuito a todas las componentes armónicas.
+
+ En estas condiciones el cirtuico térmico equivalente se puede aproximar al mostrado en la Figura 9.
+
+<p align="center">
+  <img src="../../assets/img/regPer/EJ Fig4.png">
+</p>
+<p align = "center">Figura 9. – Circuito térmico equivalente en continua o para frecuencias elevadas.</p>
+
+En este circuito las temperaturas permanencen constantes y la potencia es igual a la potencia térica media del circuito.
 
 ## **Apartado 4) Apartados anteriores para una frecuandia de operación de $50\;Hz$.**
