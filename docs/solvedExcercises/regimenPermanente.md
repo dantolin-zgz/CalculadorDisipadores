@@ -2,7 +2,7 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-# Ejercicio ejemplo para el cálculo de disipadores para un dispositivo trabajando en régimen permanente.
+# **Ejercicio ejemplo para el cálculo de disipadores para un dispositivo trabajando en régimen permanente.**
 
 **Suponiendo la conmutación del interruptor indicado en la Figura 2, calcular:**
 
@@ -95,3 +95,7 @@ $$T_s-T_a=P \cdot R_{sa}$$
 $$T_s=P \cdot R_{sa}-T_a=40W \cdot 1.8ºC/W-30ºC=102ºC$$
 
 El disipador se encontrará aproximadamente a 102ºC con una temperatura ambiente de 30ºC.
+
+## Referencias
+1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de publicaciones Universidad de Zaragoza.
+2.	A. Barrado, A. Lázaro, “Problemas de Electrónica de Potencia”. Pearson, 2007 
