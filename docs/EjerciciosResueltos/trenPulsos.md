@@ -105,4 +105,11 @@ Las capacidades térmicas de la cápsula y del disipador son mucho mayores por l
 </p>
 <p align = "center">Figura 7. – Circuito eléctrico equivalente de la componente en régimen permanente del comportamiento térmico del dispositivo.</p>
 
+El valor máximo del gradiente témico de la unión-cápsula en régimen permanente, definido como $({T_{JC}})_{MAX}$, viene determinado por la siguiente expresión:
+$$({T_{JC}})_{MAX} = P_{ON} \cdot R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}}=P_{ON} \cdot Z_{JC}   \;\;\;(9)$$
+
+Siendo $Z_{JC}$ la impedancia térmica transitoria unión cápsula en situación pulsante
+
+$$Z_{JC}=Z_{JC}(t_{ON},D)=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}}=R_{JC}\cdot  \frac{1-e^{-t_{ON}⁄\tau}} {1-e^{-t⁄D\tau}}\;\;\;(10)$$
+
 ## **Apartado 4) Apartados anteriores para una frecuandia de operación de $50\;Hz$.**
