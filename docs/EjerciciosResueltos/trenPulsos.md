@@ -137,6 +137,22 @@ El gradiente térmico máximo unión-cápsula para frecuencias elevadas viene de
 </p>
 <p align = "center">Figura 9. – Circuito térmico equivalente en continua o para frecuencias elevadas.</p>
 
-En este circuito las temperaturas permanencen constantes y la potencia es igual a la potencia térica media del circuito.
+En este circuito las temperaturas permanencen constantes y la potencia es igual a la potencia media del circuito.
+
+El modelo térmico de alta frecuencia, de frecuencias elevadas se corresponde con el que se obtiene cuando un circuito opera ante un régimen de excitación continua, donde para cada valor de temperatura de la cápsula, $T_C$, existe un límete de potencia, $P_{LIM}$, que se corresponde con la máxima temperatura de operación del dispositivo, es decir, la temperatura de la unión del semiconductor,$(T_J)_{MAX}$.
+
+Esta potencia límite, $P_{LIM}$, viene definida por la expresión:
+$$P_{LIM}(T_C)=\frac 1 {R_{JC}} \cdot [(T_J)_{MAX}-T_C]\;\;\;(13)$$ 
+
+Partiendo de la expresión que acabamos de definir en $(13)$ se puede determinar la temperatura de la cápsula en las condiciones dadas por el problema:
+$$T_C=(T_J)_{MAX}-P_{LIM} \cdot R_{JC} = 150^{\circ}C-40\;W \cdot 1^{\circ}C/W=110^{\circ}C\;\;\;(14)$$ 
+
+Una vez obtenida esta temperatura, basta con analizar el circuito de la Figura 9. De este análisis se obtiene:
+$$R_{SA} = \frac {[T_C - T_A - P_{LIM} \cdot R_{CS}]} {P_{LIM}}= \frac {110^{\circ}C-30^{\circ}C-40\;W \cdot 0.2^{\circ}C/W} {40\;W}=1,8^{\circ}C/W \;\;\;(15)$$ 
+
+Un disipador con una resistencia térmica $R_{SA}$ igual al valor calculado llevará a la unión del componente a la temperatura máxima de la unión $(T_J)_{MAX}$. Si la resistencia es mayor, la temperaturá de la unión también será superior. Para garantizar que el componente se encuentra con una temperatura en la unión inferior a su valor límite la resistencia térmica del disipador deberá ser inferior al valor calculado, $1,8^{\circ}C/W$.
+
+
+
 
 ## **Apartado 4) Apartados anteriores para una frecuandia de operación de $50\;Hz$.**
