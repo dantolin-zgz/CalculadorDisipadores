@@ -59,7 +59,7 @@ Donde $P$ es la potencia resultante de los términos estacionarios y de conmutac
 Por tanto, la situación presentada en el apartado anterior resulta equivalente a otra ideal, donde la potencia disipada en conmutación es nula la potenia disipada durante el intervalo de conducción coincide con $P_{ON}$.
 
 La potencia en conducción equivalente para una conmutación ideal en el caso que nos otupa será:
-$$P_{ON}= \frac D P = \frac {40W} {0,5} = 80\;W \;\;\;(8)$$
+$$P_{ON}= \frac D P = \frac {40\;W} {0,5} = 80\;W \;\;\;(8)$$
 
 La forma de onda correspondiente a la conmutación ideal en terminos de potencia se representa en la Figura 3.
 
@@ -152,7 +152,29 @@ $$R_{SA} = \frac {[T_C - T_A - P_{LIM} \cdot R_{CS}]} {P_{LIM}}= \frac {110^{\ci
 
 Un disipador con una resistencia térmica $R_{SA}$ igual al valor calculado llevará a la unión del componente a la temperatura máxima de la unión $(T_J)_{MAX}$. Si la resistencia es mayor, la temperaturá de la unión también será superior. Para garantizar que el componente se encuentra con una temperatura en la unión inferior a su valor límite la resistencia térmica del disipador deberá ser inferior al valor calculado, $1,8^{\circ}C/W$.
 
-
-
-
 ## **Apartado 4) Apartados anteriores para una frecuandia de operación de $50\;Hz$.**
+
+En estas condiciones la potencia media disipada por el componente se calcula mediante la expresión:
+
+$$ P=D \cdot V_{ON} \cdot I_{ON} + \frac {V_{OFF} \cdot I_{ON}} 6 \cdot f_S \cdot (t_1+t_2) = 0,5 \cdot 2\;V \cdot 20\;A + \frac {60\;V \cdot 20\;A} 6 \cdot 50Hz \cdot 2 {\mu}s = 20\;W + 0,02\;W \approx 20\;W \;\;\; (16)$$
+
+Calculada la potencia podemos concluir que la potencia debida al proceso de conmutación es despreciable frente a las perdidas debidas al proceso de conmutación en régimen permanente del dispositivo.
+
+La potencia instantanea equivalente en condución en este caso será:
+$$P_{ON}= \frac D P = \frac {20\;W} {0,5} = 40\;W \;\;\;(17)$$
+
+Por otro lado, también debido a la baja frecuencia de operación el dinterruptor las fluctuaciones en la temperatura de la unión pueden resultar significativas. Como consecuencia de ello para calcular el gradiente térmico unión-cápsula en régimen permanente es preciso utilizar la impedancia $Z_{JC}$. El valor de esta impencia térmica se obtiene mediante la siguiente expresión, ya mostrada anterioremente.
+
+$$Z_{JC}=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}} \approx R_{JC}\cdot  \frac{1-{[1-{t_{ON}}⁄\tau}]} {1-{[1-T  /\tau}]} =0,1^{\circ}/W \cdot \frac{1-e^{-0,01\;⁄\;0,02}}{1-e^{-0,01/ (0,5 \; \cdot \; 0,02)}} \approx 0,62^{\circ}/W \;\;\;(18)$$
+
+Este valor de impedancia térmita transitoria ha sido obtenido de forma analítica, si bien podría haberse optenido de forma gráfica utilizando la gráfica mostrada en la Figura 8.
+
+Con esta impedancia térmica se procede a obtener la temperatura de la cápsula, $T_C$:
+$$T_C=(T_J)_{MAX}-P_{LIM} \cdot Z_{JC} = 150^{\circ}C-40\;W \cdot 0,62^{\circ}C/W \approx 125^{\circ}C\;\;\;(19)$$
+
+En estas condiciones de operación el valor de la resistencia térmica disipador-ambiente, $R_{SA}$, se calcula a partir del análisis del circuito mostrado en la Figura 7. La expresión obtenida a partir del análisis es la siguiente:
+$$R_{SA} = \frac {[T_C - T_A ]} {P} -R_{CS}= \frac {125^{\circ}C-30^{\circ}C } {20\;W}-0,2^{\circ}C/W \approx 4,6^{\circ}C/W \;\;\;(20)$$
+
+## Referencias
+1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de publicaciones Universidad de Zaragoza.
+2.	A. Barrado, A. Lázaro, “Problemas de Electrónica de Potencia”. Pearson, 2007 
