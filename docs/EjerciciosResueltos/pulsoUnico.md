@@ -77,6 +77,9 @@ El circuito equivalente se muestra en la Figura 5. **Errata en la figura $$T_C$$
 Relacionando la expresión obtenida en $$(8)$$ con el gradiente térmico máximo, $$(T_{JC})_{MAX}$$, que se corresponde con la temperatura máxima en la unión, $$(T_J)_{MAX}$$, se puede establecer un valor límite de potencia $$P_{LIM}$$ de un pulso de corta duración. Esta potencia límite viene dada por la expresión:
 $$P_{LIM}=\frac {(T_{JC})_{MAX}} {Z_{JC}(t_{ON})}=\frac {(T_J-T_C} {Z_{JC}(t_{ON})}\;\;\;(9)$$
 
+El caso, la situación de operación, no es la más habitual. Lo más usual es que esta situación, está sobrecorriente se producca superpuesta a la situación de conducción normal de régimen permanente del dispositivo. 
+
+
 
 
 ## Referencias
