@@ -35,22 +35,24 @@ Los parámetros de funcionamiento del circuito y de los componentes son los sigu
 
 El objetivo final del problema es calcular el disipador necesario para el interruptor que opera en las condiciones citadas y que este pueda trabajar sin romperse por sobrepasar la temperatura máxima de la unión. Para ello es necesario seguir y calcular la información indicada en los puntos en los que se ha dividido el problema.
 
+La teoría asociada a la solución de este problema está relacionada con la teoría mostradad en el documento que trata sobre la situación del pulso [Régimen Permanente](docs/teoriaRegimenPermanente.md).
+
 **1. Potencia media disipada en el interruptor.**
 El primer paso es obtener la potencia media disipada por el componente.
 
 La potencia media disipada por el componente esta formada por pontencia perdida durante la conducción y durante la conmutación.
 $$P=P_{CONDUCCIÓN}+P_{CONMUTACIÓN}$$
 Se procede a obtener el valor de ambas. Las perdidas en conducción vienen definidas por:
-$$P_{CONDUCCIÓN}= \frac 1T \cdot \int_{0}^{t_{ON}} p(t) \cdot dt=\frac 1T \cdot \int_{0}^{t_{ON}} I_{ON} \cdot V_{ON} \cdot dt=I_{ON} \cdot V_{ON} \cdot \dfrac {t_{ON}} T=D \cdot I_{ON} \cdot V_{ON}$$
+$$P_{CONDUCCIÓN}= \frac 1T \cdot \int_{0}^{t_{ON}} p(t) \cdot dt=\frac 1T \cdot \int_{0}^{t_{ON}} I_{ON} \cdot V_{ON} \cdot dt=I_{ON} \cdot V_{ON} \cdot \dfrac {t_{ON}} T=D \cdot I_{ON} \cdot V_{ON}\;\;\;(1) $$
 
 De forma similar las perdidas en comuntación vienen definidas por:
-$$P_{CONDUCCIÓN}= \frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)$$
+$$P_{CONDUCCIÓN}= \frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(2)$$
 Siendo $t_1$ el paso de conmutación de OFF a ON y $t_2$ el paso de ON a OFF.
 
 Las perdidas totales son:
-$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)$$
+$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(3)$$
 Sustituyendo valores:
-$$P=0.5 \cdot 20A \cdot 2V+\frac 16 \cdot 60V \cdot 50kHz \cdot(1\mu s+1\mu s)=20W+20W=40W$$
+$$P=0.5 \cdot 20A \cdot 2V+\frac 16 \cdot 60V \cdot 50kHz \cdot(1\mu s+1\mu s)=20W+20W=40W\;\;\;(3)$$
 
 
 **2. Potencia instantánea equivalente en conducción, suponiendo conmutación ideal.**
@@ -63,15 +65,15 @@ La potencia instantanea equivalente en conducción $((P_{ON})_{EQUIV})$ se muest
 <p align = "center">Figura 3. – Formas de onda para el calculo de la potencia instantanea equivalente en conducción.</p> 
 
 Para que la potencia media sea igual a la calculada en el caso anterior se tiene que cumplir:
-$$P= \frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot dt=\frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot \dfrac {t_{ON}} T= ((P_{ON})_{EQUIV}) \cdot D $$
+$$P= \frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot dt=\frac 1T \cdot ((P_{ON})_{EQUIV}) \cdot \dfrac {t_{ON}} T= ((P_{ON})_{EQUIV}) \cdot D \;\;\;(4)$$
 
 Como la potencia media tiene que ser igual tanto en esta expresión como en la calculada en el apartado anterior, si despejamos $((P_{ON})_{EQUIV})$ obtenermos:
 
-$$((P_{ON})_{EQUIV})= \frac PD=$$
+$$((P_{ON})_{EQUIV})= \frac PD\;\;\;(5)$$
 
 Sustituyendo por los valores del caso propuesto:
 
-$$((P_{ON})_{EQUIV})= \frac {40W}{0.5}=80W$$
+$$((P_{ON})_{EQUIV})= \frac {40W}{0.5}=80W\;\;\;(6)$$
 
 **3. Disipador requerido suponiendo temperatura ambiente de 30ºC.**
 
@@ -84,15 +86,15 @@ Finalmente se procede a calcular el disipador. Como el sistema esta operando a f
 
 Aplicamos para obtener el valor del disipador las ecuaciones correspondientes al modelo térmico, en este caso:
 
-$$(T_j-T_a)=P \cdot (R_{jc}+R_{cs}+R_{sa})$$
-$$(T_j)_{MAX}-T_a=P_{LIM}\cdot (1ºC/W+0.2ºC/W+R_{sa})$$
-$$150ºC-30ºC=40W \cdot (1ºC/W+0.2ºC/W+R_{sa})$$
-$$ \frac {150ºC-30ºC}{40W}=(1.2ºC/W+R_{sa})$$
-$$ R_{sa} = \frac {150ºC-30ºC}{40W}-1.2ºC/W=1.8ºC/W$$
+$$(T_j-T_a)=P \cdot (R_{jc}+R_{cs}+R_{sa})\;\;\;(7)$$
+$$(T_j)_{MAX}-T_a=P_{LIM}\cdot (1^{\circ}C/W+0.2^{\circ}C/W+R_{sa})\;\;\;(8)$$
+$$150^{\circ}C-30^{\circ}C=40W \cdot (1^{\circ}C/W+0.2ºC/W+R_{sa})\;\;\;(9)$$
+$$ \frac {150^{\circ}C-30^{\circ}C}{40W}=(1.2^{\circ}C/W+R_{sa})\;\;\;(10)$$
+$$ R_{sa} = \frac {150ºC-30ºC}{40W}-1.2ºC/W=1.8^{\circ}CW11)$$
 
 Con esta información podemos calcular la temperatura del disipador:
-$$T_s-T_a=P \cdot R_{sa}$$
-$$T_s=P \cdot R_{sa}-T_a=40W \cdot 1.8ºC/W-30ºC=102ºC$$
+$$T_s-T_a=P \cdot R_{sa}\;\;\;(12)$$
+$$T_s=P \cdot R_{sa}-T_a=40W \cdot 1.8^{\circ}C/W-30ºC=102^{\circ}C\;\;\;(13)$$
 
 El disipador se encontrará aproximadamente a 102ºC con una temperatura ambiente de 30ºC.
 

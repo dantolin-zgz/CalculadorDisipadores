@@ -77,7 +77,7 @@ Para la resolver este apartado es necesario comprender el modelo térmico eléct
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
 
-La teoría asociada se encuentra en el docuemento sobre [Tren de Pulsos](docs/teoriaTrenPulsos.md).
+La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoriaTrenPulsos.md).
 
 <p style="text-align: justify;">
 Como en dicho documento se indica, en el caso de un tren de pulsos repetitivo el comportamiento del circuito de la Figura 4, puede explicarse mediante un proceso repetitivo de Carga-Descarga de las capacidades del circuito equivalente. Esto es debido a que los condensadores se encuentran representando la incercia térmica propia de los elementos del sistema al incremento de temperaturas, y puesto que, esta incercia aumenta con la superficie de las zonas que soportan la progración del calor, la capacidad asociadad al nodo de la unión será la de menor valor del circuito. 
