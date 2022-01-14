@@ -4,7 +4,9 @@
 
 El presente repositorio contiene el software y documentación necesaria para el uso de la **aplicación Calculo de Disipadores (CdD)**, que sirve para calcular disipadores térmicos y para averiguar la sobrepotencia máxima que soportará un circuito integrado. Este cálculo se encuentra fuertemente ligado a la Electrónica de Potencia
 
-Contiene el código fuente del calculador ([`calc.py`](calc.py)), el de la interfaz gráfica ([`gui.py`](gui.py)), la [documentación](docs/instrucciones.md) y la teoría del cálculo en los tres regímenes de trabajo considerados: [régimen de excitación continua](docs/teoriaRegimenPermanente.md), [de pulso único](docs/teoriaPulsoUnico.md) y [tren de pulsos](docs/teoriaTrenPulsos.md). Además se ha generado un ejecutable de Windows, [gui.exe](gui.exe).
+Contiene el código fuente del calculador ([`calc.py`](calc.py)), el de la interfaz gráfica ([`gui.py`](gui.py)), la [documentación](docs/instrucciones.md) y la teoría del cálculo en los tres regímenes de trabajo considerados: [régimen de excitación continua](docs/teoriaRegimenPermanente.md), [tren de pulsos](docs/teoriaTrenPulsos.md) y [de pulso único](docs/teoriaPulsoUnico.md). Además se ha generado un ejecutable de Windows, [gui.exe](gui.exe).
+
+Junto con la teoría asociada se incluyen una serie de ejercicios resueltos y explicados que permiten conocer el procedimiento de cálculo del disipador necesario para un dispositivo semiconductor de electrónica de potencia en sus diferentes modos de funcionamiento: Ejercicio resuelto para un semiconductor en [régimen de excitación continua](docs/EjerciciosResueltos/regimenPermanente.md), Ejercicio resuelto en con un [tren de pulsos](docs/teoriaTrenPulsos.md) y de [pulso único](docs/teoriaPulsoUnico.md) como regímenes de funcionamiento.
 
  El código de la aplicación se está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MacOS, usando los recursos que ofrece el paquete [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI).
 
