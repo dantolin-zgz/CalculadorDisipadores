@@ -69,7 +69,7 @@ La forma de onda correspondiente a la conmutación ideal en terminos de potencia
 <p align = "center">Figura 3. – Forma de onda de potencia ideal equivalente de potencia.</p>
 
 ## **Apartado 3) Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $30^{\circ}C$.**
-Para la resolver este apartado es necesario comprender el modelo térmico eléctrico equivalente del conjunto dispositivo-didipador mostrado en la Figura 4.
+Para la resolver este apartado es necesario comprender el modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
 
 <p align="center">
   <img src="../../assets/img/teoTrenPulsos/Fig2.png">

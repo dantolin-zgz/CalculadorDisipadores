@@ -47,13 +47,38 @@ $$P'_{ON}=\frac {V_{OFF} \cdot I'_{ON}} {t_{ON}} \cdot \frac {t_1+t_2} {6} + V_{
 
 Sustituyendo los valores del enunciado del problema se obtiene:
 $$P'_{ON}=\frac {60\;V \cdot 200\;A} {10\;\mu s} \cdot \frac {2\;\mu s} {6} + 2\;V \cdot 200\;A=800\;W\;\;\;(5)$$
-
+<p style="text-align: justify;">
 Podemos concluir que debido a este pulso de sobrecorriente, de sobreconducción o de sobrepotencia, el semiconductor sufre un incremento de potencia calculado a continuación:
 
 $$\Delta P = P'_{ON}-P = 800\;W-40\;W = 760\;W\;\;\;(6)$$
 
+Para analizar el  comportamiento térmico a través del  modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
+
+<p align="center">
+  <img src="../../assets/img/teoTrenPulsos/Fig2.png">
+</p>
+<p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
+
+Su poniendo una situación estática, estacionaria, considerando el la excitación un escalón de potencia P, el gradiente térmico unión-cápsila puede expresarse como sigue:
+ $$(T_J)_{MAX} = P \cdot Z_{JC} \;\;\;(7)$$
+Siendo $$Z_{JC}$$ la impedancia térmica transitorio unión-cápsula de pulso único.
+
+Supuesto un pulso de sobrecorriente de corta duración, hablando en términos de electónica de potencia puede ser sinónimos; puede suponerse el efecto único de la capacidad referente al nodo de la unión, mientras que el resto de condensadores pueden considerarse cortocircuitados. Esta aproximación conlleva que la cápsula y el disipador permanecen a temperatura ambiente, aproximación que resulta consecuente con la inercia térmica de estas regiones. En estas condiciones el sistema se rige por la expresión:
+$$Z_{JC}=_R{JC} \cdot (1-e^{-\tau\;/\;t})\;\;\;(8)$$
+Siendo los valores de la constante de tiempo $$\tau$$ inferiores a $$1\;s$$ típicamente para componentes de alta potencia.
+
+El circuito equivalente se muestra en la Figura 5. **Errata en la figura $$T_C$$ debe ser $$T_A$$**
+
+<p align="center">
+  <img src="../../assets/img/teoTrenPulsos/Fig3.png">
+</p>
+<p align = "center">Figura 5. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
+
+Relacionando la expresión obtenida en $$(8)$$ con el gradiente térmico máximo, $$(T_{JC})_{MAX}$$, que se corresponde con la temperatura máxima en la unión, $$(T_J)_{MAX}$$, se puede establecer un valor límite de potencia $$P_{LIM}$$ de un pulso de corta duración. Esta potencia límite viene dada por la expresión:
+$$P_{LIM}=\frac {(T_{JC})_{MAX}} {Z_{JC}(t_{ON})}=\frac {(T_J-T_C} {Z_{JC}(t_{ON})}\;\;\;(9)$$
+
 
 
 ## Referencias
-1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de publicaciones Universidad de Zaragoza.
+1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de Universidad de Zaragoza.
 2.	A. Barrado, A. Lázaro, “Problemas de Electrónica de Potencia”. Pearson, 2007 
