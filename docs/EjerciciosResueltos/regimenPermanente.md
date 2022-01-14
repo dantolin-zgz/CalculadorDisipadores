@@ -42,6 +42,7 @@ El primer paso es obtener la potencia media disipada por el componente.
 
 La potencia media disipada por el componente esta formada por pontencia perdida durante la conducción y durante la conmutación.
 $$P=P_{CONDUCCIÓN}+P_{CONMUTACIÓN}$$
+
 Se procede a obtener el valor de ambas. Las perdidas en conducción vienen definidas por:
 $$P_{CONDUCCIÓN}= \frac 1T \cdot \int_{0}^{t_{ON}} p(t) \cdot dt=\frac 1T \cdot \int_{0}^{t_{ON}} I_{ON} \cdot V_{ON} \cdot dt=I_{ON} \cdot V_{ON} \cdot \dfrac {t_{ON}} T=D \cdot I_{ON} \cdot V_{ON}\;\;\;(1) $$
 
@@ -51,6 +52,7 @@ Siendo $$t_1$$ el paso de conmutación de OFF a ON y $$t_2$$ el paso de ON a OFF
 
 Las perdidas totales son:
 $$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(3)$$
+
 Sustituyendo valores:
 $$P=0,5 \cdot 20\;A \cdot 2\;V+\frac 16 \cdot 60\;V \cdot 50\;kHz \cdot(1\;\mu s+1\;\mu s)=20\;W+20\;W=40\;W\;\;\;(3)$$
 
@@ -87,13 +89,18 @@ Finalmente se procede a calcular el disipador. Como el sistema esta operando a f
 Aplicamos para obtener el valor del disipador las ecuaciones correspondientes al modelo térmico, en este caso:
 
 $$(T_j-T_a)=P \cdot (R_{jc}+R_{cs}+R_{sa})\;\;\;(7)$$
+
 $$(T_j)_{MAX}-T_a=P_{LIM}\cdot (1^{\circ}C/W+0.2^{\circ}C/W+R_{sa})\;\;\;(8)$$
+
 $$150^{\circ}C-30^{\circ}C=40\;W \cdot (1^{\circ}C/W+0,2^{\circ}C/W+R_{sa})\;\;\;(9)$$
+
 $$ \frac {150^{\circ}C-30^{\circ}C}{40\;W}=(1.2^{\circ}C/W+R_{sa})\;\;\;(10)$$
+
 $$ R_{sa} = \frac {150^{\circ}C-30^{\circ}C}{40\;W}-1.2^{\circ}C/W=1,8^{\circ}C/W(11)$$
 
 Con esta información podemos calcular la temperatura del disipador:
 $$T_s-T_a=P \cdot R_{sa}\;\;\;(12)$$
+
 $$T_s=P \cdot R_{sa}-T_a=40W \cdot 1.8^{\circ}C/W-30^{\circ}C=102^{\circ}C\;\;\;(13)$$
 
 El disipador se encontrará aproximadamente a $$102^{\circ}C$$ con una temperatura ambiente de $$30^{\circ}C$$.
