@@ -45,7 +45,7 @@ $$P'_{ON}=\frac {V_{OFF} \cdot I'_{ON}} {t_{ON}} \cdot \frac {t_1+t_2} {6} + V_{
 
 Sustituyendo los valores del enunciado del problema se obtiene:
 $$P'_{ON}=\frac {60\;V \cdot 200\;A} {10\;\mu s} \cdot \frac {2\;\mu s} {6} + 2\;V \cdot 200\;A=800\;W\;\;\;(5)$$
-<p style="text-align: justify;">
+
 Podemos concluir que debido a este pulso de sobrecorriente, de sobreconducción o de sobrepotencia, el semiconductor sufre un incremento de potencia calculado a continuación:
 
 $$\Delta P = P'_{ON}-P = 800\;W-40\;W = 760\;W\;\;\;(6)$$
