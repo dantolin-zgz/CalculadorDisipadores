@@ -4,7 +4,7 @@
 
 # **Ejercicio ejemplo para el cálculo de disipadores para un dispositivo trabajando en régimen permanente.**
 
-**Suponiendo la conmutación del interruptor indicado en la Figura 2, calcular:**
+**Suponiendo la conmutación del interruptor indicado en la Figura 1, calcular:**
 
 **1. Potencia media disipada en el interruptor.**
 
@@ -20,7 +20,7 @@ La Figura 1 muestra el esquema conceptual del circuito con los valores de funcio
 
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig2.png">
+  <img src="../../assets/img/ejercicios/regimenPermanente/Ej Fig2.png">
 </p>
 <p align = "center">Figura 2. – Formas de onda de la conmutación.</p>
 
@@ -35,7 +35,7 @@ Los parámetros de funcionamiento del circuito y de los componentes son los sigu
 
 El objetivo final del problema es calcular el disipador necesario para el interruptor que opera en las condiciones citadas y que este pueda trabajar sin romperse por sobrepasar la temperatura máxima de la unión. Para ello es necesario seguir y calcular la información indicada en los puntos en los que se ha dividido el problema.
 
-La teoría asociada a la solución de este problema está relacionada con la teoría mostradad en el documento que trata sobre la situación del pulso [Régimen Permanente](docs/teoriaRegimenPermanente.md).
+La teoría asociada a la solución de este problema está relacionada con la teoría mostradad en el documento que trata sobre la situación del pulso [Régimen Permanente](docs/teoria/teoriaRegimenPermanente.md).
 
 **1. Potencia media disipada en el interruptor.**
 El primer paso es obtener la potencia media disipada por el componente.
@@ -48,7 +48,8 @@ Se procede a obtener el valor de ambas. Las perdidas en conducción vienen defin
 $$P_{CONDUCCIÓN}= \frac 1T \cdot \int_{0}^{t_{ON}} p(t) \cdot dt=\frac 1T \cdot \int_{0}^{t_{ON}} I_{ON} \cdot V_{ON} \cdot dt=I_{ON} \cdot V_{ON} \cdot \dfrac {t_{ON}} T=D \cdot I_{ON} \cdot V_{ON}\;\;\;(1) $$
 
 De forma similar las perdidas en comuntación vienen definidas por:
-$$P_{CONDUCCIÓN}= \frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(2)$$
+
+$$P_{CONMUTACIÓN}= \frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(2)$$
 
 Siendo $$t_1$$ el paso de conmutación de OFF a ON y $$t_2$$ el paso de ON a OFF.
 
@@ -64,7 +65,7 @@ $$P=0,5 \cdot 20\;A \cdot 2\;V+\frac 16 \cdot 60\;V \cdot 50\;kHz \cdot(1\;\mu s
 La potencia instantanea equivalente en conducción $$((P_{ON})_{EQUIV})$$ se muestra definida en la Figura 3.
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig3.png">
+  <img src="../../assets/img/ejercicios/regimenPermanente/Ej Fig3.png">
 </p>
 <p align = "center">Figura 3. – Formas de onda para el calculo de la potencia instantanea equivalente en conducción.</p> 
 
