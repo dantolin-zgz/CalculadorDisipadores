@@ -7,7 +7,7 @@
 **En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$2\;V$$ y $$20\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$60\;V$$ y $$0\;A$$. Los tiempos de conmutación del disposítivo $$t_1$$ y $$t_2$$ son iguales a $$1\;\mu s$$. Su frecuencia de operacion es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig1.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig1.png">
 </p>
 <p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
@@ -53,7 +53,7 @@ $$\Delta P = P'_{ON}-P = 800\;W-40\;W = 760\;W\;\;\;(6)$$
 Para analizar el  comportamiento térmico a través del  modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig2.png">
+  <img src="../../assets/img/teoria/teoTrenPulsos/Fig2.png">
 </p>
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
@@ -68,7 +68,7 @@ Siendo los valores de la constante de tiempo $$\tau$$ inferiores a $$1\;s$$ típ
 El circuito equivalente se muestra en la Figura 5. **Errata en la figura $$T_C$$ debe ser $$T_A$$**
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig3.png">
+  <img src="../../assets/img/teoria/teoTrenPulsos/Fig3.png">
 </p>
 <p align = "center">Figura 5. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
@@ -80,15 +80,15 @@ La situación en la que se puede producir esta sobrecorriente o sobre conducció
 En estas condiciones la temperatura de la cápsula, $$T_C$$, puede considerarse constante e inaltedara por el transitorio. Esto implica que el incremento térmico asociado al incremento de potencia $$\Delta P$$ quedan restringidas a la únion. Esta situación, como ya se ha citado, puede considerarse como la superposición a un régimen permanente. De esta manera, las situaciones correspondientes a la unión y al resto del sistema se describen mediante los circuitos presentados en las Figuras 6 y 7, respectivamente, siendo $$\Delta P$$ el incremento de potencia y $$P$$ la potencia media en el semiconductor en régimen permanente de operación normal.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig3.png">
+  <img src="../../assets/img/teoria/teoTrenPulsos/Fig3.png">
 </p>
 <p align = "center">Figura 6. – Circuito eléctrico equivalente unión cápsula asociado a una sobrecorriente.</p>
 
 
 <p align="center">
-  <img src="../../assets/img/regPer/EJ Fig4.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig7.png">
 </p>
-<p align = "center">Figura 7. – Circuito eléctrico equivalente asociado a los valore medios.</p>
+<p align = "center">Figura 7. – Circuito eléctrico equivalente asociado a los valores medios.</p>
 
 Por otro lado, en lo que se refiere a la potencia límite, $$\Delta P_{LIM}$$, asociada a la máxima variación del gradiente térmico unión-cápsula, ésta resulta determinada por el margen entre la temperatura de la unión correspondiente a la operación en régimen permanente, $$T_J$$, y su valor máximo $$(T_J)_{MAX}$$. Este incremento de potencia límite se determina a través de la siguiente expresión:
 $$\Delta P = \frac {(T_J)_{MAX}-T_J} {Z_{JC}(t_{ON})} \;\;\;(10)$$

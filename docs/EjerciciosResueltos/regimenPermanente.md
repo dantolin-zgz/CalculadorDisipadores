@@ -14,7 +14,7 @@
 
 La Figura 1 muestra el esquema conceptual del circuito con los valores de funcionamiento del mismo, mientras que la Figura 2 presenta las señales de conmutación.
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig1.png">
+  <img src="../../assets/img/ejercicios/regimenPermanente/Ej Fig1.png">
 </p>
 <p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
@@ -84,7 +84,7 @@ $$((P_{ON})_{EQUIV})= \frac {40\;W}{0,5}=80\;W\;\;\;(7)$$
 Finalmente se procede a calcular el disipador. Como el sistema esta operando a frecuencias elevadas el modelo térmico utilizado es el puramente resistivo. Este modelo se muestra en la Figura 4.
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig4.png">
+  <img src="../../assets/img/ejercicios/regimenPermanente/Ej Fig4.png">
 </p>
 <p align = "center">Figura 4. – Circuito electrónico equivalente al comportamiento térmico.</p>
 

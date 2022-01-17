@@ -14,12 +14,12 @@
 4. **Apartados anteriores para una frecuandia de operación de $50\;Hz$.**
 
 <p align="center">
-  <img src="Ubicacion dnde este el archivo"
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig1.png"
 </p>
 <p align = "center">Figura 1. – Circuito de Electrónica de Potencia a analizar.</p>
 
 <p align="center">
-  <img src="Ubicacion dnde este el archivo"
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig2.png"
 </p>
 <p align = "center">Figura 2. – Proceso de conmutación al que se encuentra somido el dispositivo semiconductor en terminos de tensión y corriente.</p>
 
