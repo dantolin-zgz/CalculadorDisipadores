@@ -53,7 +53,9 @@ Es importante destacar y hacer incapié en la importacia que presentan la potenc
 ## ***Apartado 2) Potencia instantánea en conducción, suponiendo una conmutación ideal.***
 
 En el caso de estudio que se corresponde con un tresn de pulsos repetitivo, la aproximación ideal de la onda de potencia supone incluir en el valor de régimen permanente de conducción la contribución de los transistores de conmutación, es decir, llevar la onda de estudio a una onda cuadrada de potencia ideal. A este valor de potencia en conducción lo llamaremos potencia instantane equivalente en conducción $$P_{ON}$$ lo cual se relaciona con la potencia media a traves del ciclo de operación D de la siguiente forma:
+
 $$ P=\frac 1 {T_S} \cdot \int_0^{t_{ON}} P_{ON} \cdot  dt= D \cdot P_{ON} \;\;\;(7)$$
+
 Donde $$P$$ es la potencia resultante de los términos estacionarios y de conmutación, es decir, el valor obtenido en el apartado anterior.
 
 Por tanto, la situación presentada en el apartado anterior resulta equivalente a otra ideal, donde la potencia disipada en conmutación es nula la potenia disipada durante el intervalo de conducción coincide con $$P_{ON}$$.
@@ -77,7 +79,7 @@ Para la resolver este apartado es necesario comprender el modelo térmico eléct
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
 
-La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoria/teoriaTrenPulsos.md).
+La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoriaTrenPulsos.md).
 
 <p style="text-align: justify;">
 Como en dicho documento se indica, en el caso de un tren de pulsos repetitivo el comportamiento del circuito de la Figura 4, puede explicarse mediante un proceso repetitivo de Carga-Descarga de las capacidades del circuito equivalente. Esto es debido a que los condensadores se encuentran representando la incercia térmica propia de los elementos del sistema al incremento de temperaturas, y puesto que, esta incercia aumenta con la superficie de las zonas que soportan la progración del calor, la capacidad asociadad al nodo de la unión será la de menor valor del circuito. 
