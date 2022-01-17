@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig2.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig2.png">
 </p>
 <p align = "center">Figura 2. – Formas de onda de la conmutación.</p>
 
@@ -22,7 +22,7 @@
 **Se pide determinar el disipador requirido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$200\;A$$ como el representado en la Figura 3.**
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig2.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig3.png">
 </p>
 <p align = "center">Figura 3. – Formas de onda de la conmutación en situación de sobrecorriente.</p>
 
@@ -53,7 +53,7 @@ $$\Delta P = P'_{ON}-P = 800\;W-40\;W = 760\;W\;\;\;(6)$$
 Para analizar el  comportamiento térmico a través del  modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
 
 <p align="center">
-  <img src="../../assets/img/teoria/teoTrenPulsos/Fig2.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig4.png">
 </p>
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
@@ -68,19 +68,19 @@ Siendo los valores de la constante de tiempo $$\tau$$ inferiores a $$1\;s$$ típ
 El circuito equivalente se muestra en la Figura 5. **Errata en la figura $$T_C$$ debe ser $$T_A$$**
 
 <p align="center">
-  <img src="../../assets/img/teoria/teoTrenPulsos/Fig3.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig5.png">
 </p>
-<p align = "center">Figura 5. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
+<p align = "center">Figura 5. – Circuito eléctrico equivalente a comportamiento térmico de la uniín cápsula.</p>
 
 Relacionando la expresión obtenida en $$(8)$$ con el gradiente térmico máximo, $$(T_{JC})_{MAX}$$, que se corresponde con la temperatura máxima en la unión, $$(T_J)_{MAX}$$, se puede establecer un valor límite de potencia $$P_{LIM}$$ de un pulso de corta duración. Esta potencia límite viene dada por la expresión:
-$$P_{LIM}=\frac {(T_{JC})_{MAX}} {Z_{JC}(t_{ON})}=\frac {(T_J-T_C} {Z_{JC}(t_{ON})}\;\;\;(9)$$
+$$P_{LIM}=\frac {(T_{JC})_{MAX}} {Z_{JC}(t_{ON})}=\frac {T_J-T_C} {Z_{JC}(t_{ON})}\;\;\;(9)$$
 
 La situación en la que se puede producir esta sobrecorriente o sobre conducción no es la más habitual, es decir, generalmente la sobreconducción no se dará en una situación en la que el dispositivo no está trabajando y sufre un primer ciclo de trabajo de este tipo. Lo usual es que el dispositivo se encuentre trabajando en su régimen de conmutación normal y esta sobrecorriente se superponga a la situación normal de funcionamieno o situación de régimen permanente.
 
 En estas condiciones la temperatura de la cápsula, $$T_C$$, puede considerarse constante e inaltedara por el transitorio. Esto implica que el incremento térmico asociado al incremento de potencia $$\Delta P$$ quedan restringidas a la únion. Esta situación, como ya se ha citado, puede considerarse como la superposición a un régimen permanente. De esta manera, las situaciones correspondientes a la unión y al resto del sistema se describen mediante los circuitos presentados en las Figuras 6 y 7, respectivamente, siendo $$\Delta P$$ el incremento de potencia y $$P$$ la potencia media en el semiconductor en régimen permanente de operación normal.
 
 <p align="center">
-  <img src="../../assets/img/teoria/teoTrenPulsos/Fig3.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig6.png">
 </p>
 <p align = "center">Figura 6. – Circuito eléctrico equivalente unión cápsula asociado a una sobrecorriente.</p>
 
@@ -113,7 +113,7 @@ Por otro lado, para la resolución de este problema, en la parte referente al ca
 Para ello los fabricantes proporciona curvas de impedancia termica $$Z_{JC}(t_{ON},D)$$, relativas a la corresponiente resistencia termica $$R_{JC}$$, normalizadas a la unidad. tomando como parámetro de trabajo el ciclo de trabajo, $$D$$ del dispositivo. Estas curvas se presentan en la Figura 8. Para el caso de pulso único el ciclo de trabajo es igual a cero, $$D=0$$.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig5.png">
+  <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig8.png">
 </p>
 <p align = "center">Figura 8. – Impedancia térmica transitoria unión-cápsula del pulso y ciclo de trabajo.</p>
 
