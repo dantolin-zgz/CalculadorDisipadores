@@ -63,7 +63,7 @@ $$P_{ON}= \frac D P = \frac {40\;W} {0,5} = 80\;W \;\;\;(8)$$
 La forma de onda correspondiente a la conmutación ideal en terminos de potencia se representa en la Figura 3.
 
 <p align="center">
-  <img src="Ubicacion dnde este el archivo"
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig3.png"
 </p>
 <p align = "center">Figura 3. – Forma de onda de potencia ideal equivalente de potencia.</p>
 
@@ -71,12 +71,12 @@ La forma de onda correspondiente a la conmutación ideal en terminos de potencia
 Para la resolver este apartado es necesario comprender el modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig2.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig4.png">
 </p>
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
 
-La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoriaTrenPulsos.md).
+La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoria/teoriaTrenPulsos.md).
 
 <p style="text-align: justify;">
 Como en dicho documento se indica, en el caso de un tren de pulsos repetitivo el comportamiento del circuito de la Figura 4, puede explicarse mediante un proceso repetitivo de Carga-Descarga de las capacidades del circuito equivalente. Esto es debido a que los condensadores se encuentran representando la incercia térmica propia de los elementos del sistema al incremento de temperaturas, y puesto que, esta incercia aumenta con la superficie de las zonas que soportan la progración del calor, la capacidad asociadad al nodo de la unión será la de menor valor del circuito. 
@@ -86,7 +86,7 @@ Como en dicho documento se indica, en el caso de un tren de pulsos repetitivo el
 Dicho proceso de Carga-Descarga de las capacidades del circuito equivalente se corresponde con los intervalos de calentamiento y enfriamiento, respectivamente de modo que el gradiente térmico Unión-Capsula, $T_{JC}$, va incrementandose hasta estabiliczarse en un valor de régimen permanente con sucesivas fluctuaciones en torno a un valor medio, como se puede ver en la Figura 5.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig1.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig5.png">
 </p>
 <p align = "center">Figura 5. – Comportamiento térmico de un integrado frente a un tren de pulsos.</p> 
 
@@ -116,7 +116,7 @@ $$Z_{JC}=Z_{JC}(t_{ON},D)=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\ta
 Partiendo de este resultado se muestran las curvas relativas a la impedancia térmica $Z_{JC}(t_{ON},D)=R_{JC}$ relativas a la resistencia térmica $R_{JC} normalizadas a la unidad se representan en la Figura 8 tomando como parámetro el ciclo de trabajo.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig5.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig8.png">
 </p>
 <p align = "center">Figura 8. – Impedancia térmica transitoria unión-cápsula del pulso y ciclo de trabajo.</p>
 
