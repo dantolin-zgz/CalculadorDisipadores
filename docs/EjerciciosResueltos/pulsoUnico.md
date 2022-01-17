@@ -65,7 +65,7 @@ Supuesto un pulso de sobrecorriente de corta duración, hablando en términos de
 $$Z_{JC}=_R{JC} \cdot (1-e^{-\tau\;/\;t})\;\;\;(8)$$
 Siendo los valores de la constante de tiempo $$\tau$$ inferiores a $$1\;s$$ típicamente para componentes de alta potencia.
 
-El circuito equivalente se muestra en la Figura 5. **Errata en la figura $$T_C$$ debe ser $$T_A$$**
+El circuito equivalente se muestra en la Figura 5.
 
 <p align="center">
   <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig5.png">
