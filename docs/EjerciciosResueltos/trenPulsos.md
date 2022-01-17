@@ -13,6 +13,7 @@
 3. **Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $$30^{\circ}C$$.**
 4. **Apartados anteriores para una frecuandia de operación de $$50\;Hz$$.**
 
+
 <p align="center">
   <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig1.png"
 </p>
@@ -28,7 +29,7 @@
 La potencia media disipada por el dispositivo en conmutación, por el interruptor se puede expresar como la suma de la pontencia media en conducuón más la potencia media en los procesod de conmutación, como muestra la siguiente expresión:
 $$P=P_{ON}+P_1+P_2  \;\;\;(1)$$
 
-siendo $$P_{ON}$$, $$P_1$$ y $$P_2$$ los valores medios correpondientes al régimen permanenete en conducción y, como ya s e ha dicho anteriormente, a los dos procesos transitorios de conmuntación de ($$OFF \rightarrow ON, ON \rightarrow OFF$$).
+siendo $$P_{ON}$$, $$P_1$$ y $$P_2$$ los valores medios correpondientes al régimen permanenete en conducción y, como ya s e ha dicho anteriormente, a los dos procesos transitorios de conmuntación de $${(OFF \rightarrow ON, ON \rightarrow OFF)}$$.
 
 Las potencias $$P_1$$ y $$P_2$$ disipadas por el interruptor durante los transistorios de conmutación corresponden a las siguiente expresiones:
 
