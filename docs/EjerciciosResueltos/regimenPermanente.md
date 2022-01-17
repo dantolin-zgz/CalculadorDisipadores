@@ -29,9 +29,9 @@ Los parámetros de funcionamiento del circuito y de los componentes son los sigu
 * Tensión de conducción:            $$V_{ON}=2\;V$$
 * Frecuencia de operación: $$f=50\;kHz$$
 * Ciclo de trabajo: $$D=0,5$$
-* Temperatura máxima de la unión: $$(T_j)_{MAX}$$
-* Resistencia Térmica Unión-Cápsula: $$R_{jc}=1^{\circ}C/W$$
-* Resistencia Térmica Cápsula-Disipador: $$R_{cs}=0,2^{\circ}C/W$$
+* Temperatura máxima de la unión: $$(T_J)_{MAX}$$
+* Resistencia Térmica Unión-Cápsula: $$R_{JC}=1^{\circ}C/W$$
+* Resistencia Térmica Cápsula-Disipador: $$R_{CS}=0,2^{\circ}C/W$$
 
 El objetivo final del problema es calcular el disipador necesario para el interruptor que opera en las condiciones citadas y que este pueda trabajar sin romperse por sobrepasar la temperatura máxima de la unión. Para ello es necesario seguir y calcular la información indicada en los puntos en los que se ha dividido el problema.
 
@@ -91,20 +91,21 @@ Finalmente se procede a calcular el disipador. Como el sistema esta operando a f
 
 Aplicamos para obtener el valor del disipador las ecuaciones correspondientes al modelo térmico, en este caso:
 
-$$(T_j-T_a)=P \cdot (R_{jc}+R_{cs}+R_{sa})\;\;\;(8)$$
+$$(T_J-T_A)=P \cdot (R_{JC}+R_{CS}+R_{SA})\;\;\;(8)$$
 
-$$(T_j)_{MAX}-T_a=P_{LIM}\cdot (1^{\circ}C/W+0,2^{\circ}C/W+R_{sa})\;\;\;(9)$$
+$$(T_J)_{MAX}-T_A=P_{LIM}\cdot (1^{\circ}C/W+0,2^{\circ}C/W+R_{SA})\;\;\;(9)$$
 
-$$150^{\circ}C-30^{\circ}C=40\;W \cdot (1^{\circ}C/W+0,2^{\circ}C/W+R_{sa})\;\;\;(10)$$
+$$150^{\circ}C-30^{\circ}C=40\;W \cdot (1^{\circ}C/W+0,2^{\circ}C/W+R_{SA})\;\;\;(10)$$
 
 $$ \frac {150^{\circ}C-30^{\circ}C}{40\;W}=(1,2^{\circ}C/W+R_{sa})\;\;\;(11)$$
 
-$$ R_{sa} = \frac {150^{\circ}C-30^{\circ}C}{40\;W}-1.2^{\circ}C/W=1,8^{\circ}C/W\;\;\;(12)$$
+$$ R_{SA} = \frac {150^{\circ}C-30^{\circ}C}{40\;W}-1.2^{\circ}C/W=1,8^{\circ}C/W\;\;\;(12)$$
 
 Con esta información podemos calcular la temperatura del disipador:
-$$T_s-T_a=P \cdot R_{sa}\;\;\;(13)$$
 
-$$T_s=P \cdot R_{sa}-T_a=40W \cdot 1,8^{\circ}C/W-30^{\circ}C=102^{\circ}C\;\;\;(14)$$
+$$T_S-T_A=P \cdot R_{SA}\;\;\;(13)$$
+
+$$T_s=P \cdot R_{SA}-T_a=40W \cdot 1,8^{\circ}C/W-30^{\circ}C=102^{\circ}C\;\;\;(14)$$
 
 El disipador se encontrará aproximadamente a $$102^{\circ}C$$ con una temperatura ambiente de $$30^{\circ}C$$.
 

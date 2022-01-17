@@ -92,15 +92,15 @@ Dicho proceso de Carga-Descarga de las capacidades del circuito equivalente se c
 
 El valor medio del gradiante térmico puede ser poco relevante si las fluctuaciones térmicas son importantes, por eso resulta de especial interes determinar el valor máximo correspondiente.
 
-Las capacidades térmicas de la cápsula y del disipador son mucho mayores por lo que sus variaciones térmicas se pueden despreciar, lo que permite aproximar los condensadores asociados a cortocircuitos para todos los armónicos de la onda de excitación, mientras que actúa como un circuito abierto ante una excitación continua. De esta manera, se puede suponer que la capápsula y el disipador tienen una temperatura fija, mientras que las fluctuaciones quedan restringidas a la zona de la unión. Como consencuencia directa el sistema se puede representar mediante sendos circuitos equivalentes, representados en las Figuras 6 y 7, respectivamente, siendo $$p(t)$$ la onda rectangular de potencia y $P$ su valor medio.
+Las capacidades térmicas de la cápsula y del disipador son mucho mayores por lo que sus variaciones térmicas se pueden despreciar, lo que permite aproximar los condensadores asociados a cortocircuitos para todos los armónicos de la onda de excitación, mientras que actúa como un circuito abierto ante una excitación continua. De esta manera, se puede suponer que la capápsula y el disipador tienen una temperatura fija, mientras que las fluctuaciones quedan restringidas a la zona de la unión. Como consencuencia directa el sistema se puede representar mediante sendos circuitos equivalentes, representados en las Figuras 6 y 7, respectivamente, siendo $$p(t)$$ la onda rectangular de potencia y S$P$S su valor medio.
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig3.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig6.png">
 </p>
 <p align = "center">Figura 6. – Circuito eléctrico equivalente de la componente incrementar referente al comportamiento térmico de un dispositivo.</p> 
 
 <p align="center">
-  <img src="../../assets/img/teoTrenPulsos/Fig4.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig7.png">
 </p>
 <p align = "center">Figura 7. – Circuito eléctrico equivalente de la componente en régimen permanente del comportamiento térmico del dispositivo.</p>
 
