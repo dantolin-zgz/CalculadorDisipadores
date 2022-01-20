@@ -4,7 +4,7 @@
 
 **Un dispositivo de electrónica de potencia se puede representar de manera genérica como un interruptor, ya que estos dispositivos semiconductores trabajan generalmente entre sus estados extremos de corte y conducción. La Figura1 refleja de manera general el circuito equivalente de funcionamiento de uno de estos dispositivos.**
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$2\;V$$ y $$20\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$60\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$1\;\mu s$$. Su frecuencia de operación es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$2\;\text{V}$$ y $$20\;\text{A}$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$60\;\text{V}$$ y $$0\;\text{A}$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$1\;\mu s$$. Su frecuencia de operación es de $$50\;\text{kHz}$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
   <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig1.png">
@@ -17,9 +17,9 @@
 </p>
 <p align = "center">Figura 2. – Formas de onda de la conmutación.</p>
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$150^{\circ}C$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;ms$$ y las resistencias térmicas unión-cápsula, $$R_{JC}$$, y cápsula-disipador, $$R_{CS}$$, son $$1^{\circ}C/W$$ y $$0,2^{\circ}C/W$$, respectivamente**
+**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$150^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;\text{ms}$$ y las resistencias térmicas unión-cápsula, $$R_{JC}$$, y cápsula-disipador, $$R_{CS}$$, son $$1^{\circ}\text{C/W}$$ y $$0,2^{\circ}\text{C/W}$$, respectivamente**
 
-**Se pide determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$200\;A$$ como el representado en la Figura 3.**
+**Se pide determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$200\;\text{A}$$ como el representado en la Figura 3.**
 
 <p align="center">
   <img src="../../assets/img/ejercicios/pulsoUnico-Sobrecorriente/Ej Fig3.png">
@@ -33,7 +33,7 @@ La potencia media disipada por el componente esta formada por potencia perdida d
 La potencia media total disipada en régimen normal de operación viene determinado por la expresión: 
 $$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(1)$$
 Sustituyendo valores:
-$$P=0,5 \cdot 20\;A \cdot 2\;V+\frac 16 \cdot 60V \cdot 50\;kHz \cdot(1\;\mu s+1\;\mu s)=20\;W+20\;W=40\;W\;\;\;(2)$$
+$$P=0,5 \cdot 20\;\text{A} \cdot 2\;\text{V}+\frac 16 \cdot 60V \cdot 50\;\text{kHz} \cdot(1\;\mu s+1\;\mu s)=20\;\text{W}+20\;\text{W}=40\;\text{W}\;\;\;(2)$$
 
 Por otro lado, necesitamos calcular el calor de la potencia equivalente instantánea en conducción para el pulso único de sobrepotencia, $$P'_{ON}$$, el cual se obtiene de la expresión siguiente:
 
@@ -44,11 +44,11 @@ Donde $$P_1$$ y $$P_2$$ corresponden a las respectivas perdidas de conmutación 
 $$P'_{ON}=\frac {V_{OFF} \cdot I'_{ON}} {t_{ON}} \cdot \frac {t_1+t_2} {6} + V_{ON} \cdot I'_{ON}\;\;\;(4)$$
 
 Sustituyendo los valores del enunciado del problema se obtiene:
-$$P'_{ON}=\frac {60\;V \cdot 200\;A} {10\;\mu s} \cdot \frac {2\;\mu s} {6} + 2\;V \cdot 200\;A=800\;W\;\;\;(5)$$
+$$P'_{ON}=\frac {60\;\text{V} \cdot 200\;\text{A}} {10\;\mu s} \cdot \frac {2\;\mu s} {6} + 2\;\text{V} \cdot 200\;\text{A}=800\;\text{W}\;\;\;(5)$$
 
 Podemos concluir que debido a este pulso de sobrecorriente, de sobreconducción o de sobrepotencia, el semiconductor sufre un incremento de potencia calculado a continuación:
 
-$$\Delta P = P'_{ON}-P = 800\;W-40\;W = 760\;W\;\;\;(6)$$
+$$\Delta P = P'_{ON}-P = 800\;\text{W}-40\;\text{W} = 760\;\text{W}\;\;\;(6)$$
 
 Para analizar el  comportamiento térmico a través del  modelo térmico eléctrico equivalente del conjunto dispositivo-disipador mostrado en la Figura 4.
 
@@ -96,15 +96,15 @@ $$\Delta P = \frac {(T_J)_{MAX}-T_J} {Z_{JC}(t_{ON})} \;\;\;(10)$$
 Entonces, el cálculo de disipador necesario para la especificaciones del problema pasa por sustituir los valores del problema a las ecuaciones vistas anteriormente.
 
 Se calcula el valor de la impedancia transitoria de pulso único, $$Z_{JC}(t_{ON})$$:
-$$Z_{JC}(t_{ON}=10\;\mu s)=2^{\circ}C/W \cdot (1-e^{-t_{ON}/{\tau}})=R_{JC}\cdot (1-e^{-10\;\mu s/{2\;ms}})\approx 0,01^{\circ}C/W\;\;\;(11)$$
+$$Z_{JC}(t_{ON}=10\;\mu s)=2^{\circ}\text{C/W} \cdot (1-e^{-t_{ON}/{\tau}})=R_{JC}\cdot (1-e^{-10\;\mu s/{2\;\text{ms}}})\approx 0,01^{\circ}\text{C/W}\;\;\;(11)$$
 
 Una vez obtenido el valor de la impedancia térmica transitoria, la temperatura media de la unión se obtiene a través de la expresión de potencia límite.
-$$T_J=(T_J)_{MAX}-\Delta P \cdot Z_{JC}(t_{ON})=150^{\circ}C-0,01^{\circ}C/W\cdot 760\;W \approx 142^{\circ}C\;\;\;(12)$$
+$$T_J=(T_J)_{MAX}-\Delta P \cdot Z_{JC}(t_{ON})=150^{\circ}\text{C}-0,01^{\circ}\text{C/W}\cdot 760\;\text{W} \approx 142^{\circ}\text{C}\;\;\;(12)$$
 
 Una vez calculada la temperatura media de la unión, la resistencia térmica del disipador se calcula a partir del análisis del circuito de la Figura 7.
-$$P=\frac {T_J -T_A}{R_{JA}} =\frac {T_J -T_A}{R_{JC}+R_{JS}+R_{SA}}=\frac {142^{\circ}C-30^{\circ}C}{2^{\circ}C/W+0,2^{\circ}C/W+R_{SA}}=40\;W\;\;\;(13)$$
+$$P=\frac {T_J -T_A}{R_{JA}} =\frac {T_J -T_A}{R_{JC}+R_{JS}+R_{SA}}=\frac {142^{\circ}\text{C}-30^{\circ}\text{C}}{2^{\circ}\text{C/W}+0,2^{\circ}\text{C/W}+R_{SA}}=40\;\text{W}\;\;\;(13)$$
 
-Despejando $$R_{SA}$$, se obtiene $$R_{SA}=0,6^{\circ}C/W$$
+Despejando $$R_{SA}$$, se obtiene $$R_{SA}=0,6^{\circ}\text{C/W}$$
 
 Con el valor calculado la temperatura que alcanzaría la unión durante el proceso transitorio descrito en la Figura 3, sería la temperatura máxima de la unión. Para garantizar el correcto funcionamiento del dispositivo y por ende del sistema, el valor de resistencia térmica $$R_{SA}$$ debe ser inferior al valor calculado con el fin de garantizar que el semiconductor no alcanza su temperatura máxima de trabajo.
 
@@ -118,7 +118,7 @@ Para ello los fabricantes proporciona curvas de impedancia térmica $$Z_{JC}(t_{
 <p align = "center">Figura 8. – Impedancia térmica transitoria unión-cápsula del pulso y ciclo de trabajo.</p>
 
 Buscando en la gráfica para el valor de ciclo de trabajo y el tiempo en activo $$t_{ON}$$ el valor de la relación $$Z_{JC}/R_{JC}$$. Para este caso concreto:
- $$\frac {Z_{JC}(10\;\mu s)}{R_{JC}}=0,005 \;\Rightarrow \; Z_{JC}(10\;\mu s)=0,005\cdot 2^{\circ}C/W=0,01^{\circ}C/W \;\;\;(14)$$
+ $$\frac {Z_{JC}(10\;\mu s)}{R_{JC}}=0,005 \;\Rightarrow \; Z_{JC}(10\;\mu s)=0,005\cdot 2^{\circ}\text{C/W}=0,01^{\circ}\text{C/W} \;\;\;(14)$$
 
 ## Referencias
 1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de Universidad de Zaragoza.
