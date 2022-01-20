@@ -28,7 +28,7 @@ La Figura 1 muestra el esquema conceptual del circuito con los valores de funcio
 Los parámetros de funcionamiento del circuito y de los componentes son los siguientes:
 * Tensión de bloque (no conducción: $$V_{OFF}=60\;\text{V}$$
 * Tensión de conducción:            $$V_{ON}=2\;\text{V}$$
-* Frecuencia de operación: $$f=50\;\text{\text{kHz}}$$
+* Frecuencia de operación: $$f=50\;\text{kHz}$$
 * Ciclo de trabajo: $$D=0,5$$
 * Temperatura máxima de la unión: $$(T_J)_{MAX}$$
 * Resistencia Térmica Unión-Cápsula: $$R_{JC}=1^{\circ}\text{C/W}$$
