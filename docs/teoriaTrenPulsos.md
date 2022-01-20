@@ -11,7 +11,7 @@ $$
 
 Donde $$P$$ es la resultante de los términos estacionario y de conmutación.
 <p align="center">
-  <img src="../assets/img/teoTrenPulsos/Fig1.png">
+  <img src="../assets/img/teoria/teoTrenPulsos/Fig1.png">
 </p>
 <p align = "center">Figura 1. – Comportamiento térmico de un integrado frente a un tren de pulsos.</p> 
  
@@ -21,7 +21,7 @@ Debido al mayor valor de las capacidades, se despreciarán en régimen permanent
 
 ## Modelo de circuito eléctrico transitorio equivalente
 <p align="center">
-  <img src="../assets/img/teoTrenPulsos/Fig2.png">
+  <img src="../assets/img/teoria/teoTrenPulsos/Fig2.png">
 </p>
 <p align = "center">Figura 2. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p> 
 
@@ -41,7 +41,7 @@ Dado que el problema puede dividirse en una situación continua más una variabl
 
 ## Componente incremental
 <p align="center">
-  <img src="../assets/img/teoTrenPulsos/Fig3.png">
+  <img src="../assets/img/teoria/teoTrenPulsos/Fig3.png">
 </p>
 <p align = "center">Figura 3. – Circuito eléctrico equivalente de la componente incrementar referente al comportamiento térmico de un dispositivo.</p> 
 
@@ -49,7 +49,7 @@ Circuito asociado a las variaciones de temperatura en la unión.
 
 ## Componente asociada al nivel medio en régimen permanente
 <p align="center">
-  <img src="../assets/img/teoTrenPulsos/Fig4.png">
+  <img src="../assets/img/teoria/teoTrenPulsos/Fig4.png">
 </p>
 <p align = "center">Figura 4. – Circuito eléctrico equivalente de la componente en régimen permanente del comportamiento térmico del dispositivo.</p> 
 
@@ -87,7 +87,7 @@ $$
 De acuerdo con este resultado, las curvas de impedancia térmica $$Z_{jc}(t_{on},D)$$ relativas a la correspondiente resistencia $$R_{jc}$$ y, por tanto, normalizadas a la unidad, se representan en la siguiente figura, tomando el ciclo de trabajo $$D$$ como parámetro.
 
 <p align="center">
-  <img src="../assets/img/teoTrenPulsos/Fig5.png">
+  <img src="../assets/img/teoria/teoTrenPulsos/Fig5.png">
 </p>
 <p align = "center">Figura 5. – Curva de la impedancia térmica transitoria.</p>
 

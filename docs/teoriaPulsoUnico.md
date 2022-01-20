@@ -6,7 +6,7 @@
 El modelo de conducción térmica caracterizado por un circuito puramente resistivo, solamente es válido con una excitación estática en régimen permanente y se corresponde con la situación de equilibrio térmico entre el flujo de calor generado en el interior y el que se propaga hacia el exterior. La inercia propia del sistema a la elevación de temperaturas, con el consiguiente proceso transitorio de propagación, puede caracterizarse mediante la inclusión de condensadores en el correspondiente circuito térmico equivalente. 
 
 <p align="center">
-  <img src="../assets/img/teoPulsoUnico/Fig1.png">
+  <img src="../assets/img/teoria/teoPulsoUnico/Fig1.png">
 </p>
 <p align = "center">Figura 1. – Circuito electrónico equivalente al comportamiento térmico.</p> 
 
@@ -40,7 +40,7 @@ T_{jc}(t)=P \cdot Z_{jc}(t)=P \cdot R_{jc}(1-e^{-t_{on}⁄\tau} )<P \cdot R_{jc}
 $$
 
 <p align="center">
-  <img src="../assets/img/teoPulsoUnico/Fig2.png">
+  <img src="../assets/img/teoria/teoPulsoUnico/Fig2.png">
 </p>
 <p align = "center">Figura 2. – Circuito transitorio eléctronico equivalente.</p> 
 
@@ -59,7 +59,7 @@ $$
 Siendo $$P_{\max}$$ la potencia máxima en operación continua.
 
 <p align="center">
-  <img src="../assets/img/teoPulsoUnico/Fig3.png">
+  <img src="../assets/img/teoria/teoPulsoUnico/Fig3.png">
 </p>
 <p align = "center">Figura 3. – Circuito eléctronico equivalente para el incremento en la disipación de potencia.</p> 
 
