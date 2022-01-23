@@ -135,7 +135,7 @@ El gradiente térmico máximo unión-cápsula para frecuencias elevadas viene de
  En estas condiciones el circuito térmico equivalente se puede aproximar al mostrado en la Figura 9.
 
 <p align="center">
-  <img src="../../assets/img/regPer/Ej Fig4.png">
+  <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig9.png">
 </p>
 <p align = "center">Figura 9. – Circuito térmico equivalente en continua o para frecuencias elevadas.</p>
 
