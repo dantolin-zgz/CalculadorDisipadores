@@ -16,7 +16,7 @@ $$
 P_\text{lim}=\frac{(T_j)_{\max}-T_c}{R_{jc}}, \quad P_{\max}=\frac{(T_j)_{\max}-T_a}{R_{jc}}  =\frac{(T_j)_{\max}-25°}{R_{jc}}
 $$
 
-La posibilidad de manejar potencias importantes por está condicionada al mantenimiento del encapsulado a una temperatura lo más baja posible, es decir, próxima a la temperatura ambiente, Ta, lo que exige unas buenas condiciones de transferencia calorífica de la cápsula al exterior. Esta transferencia cápsula-ambiente puede caracterizarse por la expresión:
+La posibilidad de manejar potencias importantes está condicionada al mantenimiento del encapsulado a una temperatura lo más baja posible, es decir, próxima a la temperatura ambiente, Ta, lo que exige unas buenas condiciones de transferencia calorífica de la cápsula al exterior. Esta transferencia cápsula-ambiente puede caracterizarse por la expresión:
 
 $$
 T_c-T_a=R_{ca} \cdot P
@@ -50,4 +50,4 @@ $$
 
 ## Referencias
 1.	V. Fernández, F.J. Pérez, C. Bernal, “Electrónica de Potencia: Teoría, Problemas y Prácticas”. Servicio de publicaciones Universidad de Zaragoza.
-2.	A. Barrado, A. Lázaro, “Problemas de Electrónica de Potencia”. Pearson, 2007 
+2.	A. Barrado, A. Lázaro, “Problemas de Electrónica de Potencia”. Pearson, 2007.

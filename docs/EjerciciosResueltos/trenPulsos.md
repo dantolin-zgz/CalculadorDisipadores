@@ -2,7 +2,7 @@
 
 
  
-# ***Ejercicio resuelto sobre el disipador necesario en un Semiconductor trabajando como interruptor en un tren de pulsos.***
+# **Ejercicio resuelto sobre el disipador necesario en un Semiconductor trabajando como interruptor en un tren de pulsos.**
 
 
 **Un dispositivo de potencia representado por el interruptor S mostrado en la Figura 1 se somete a un proceso de conmutación del tipo indicado en la Figura 2. Cuando el dispositivo se encuentra conduciendo suporta una tensión $$V_{ON}$$ y una corriente $$I_{ON}$$ iguales a $$2\;\text{V}$$ y $$20\;\text{A}$$, respectivamente , mientras que cuando éste se encuentra en un estado de corte soporta una tensión $$V_{OFF}$$ y una corriente $$I_{OFF}$$ iguales a $$60\;\text{V}$$ y $$0\;\text{A}$$, respectivamente. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son igual a $$1\;\mu s$$; su frecuencia de conmutación, $$f_S$$, es $$50\;\text{kHz}$$ y su ciclo de operación, $$D$$, es $$0,5$$. La temperatura máxima de la unión que suporta el dispositivo $$T_{Jmax}$$ es $$150^{\circ}\text{C}$$; su constante de tiempo térmica unión-cápsula, $$\tau$$, es de $$20\;\text{ms}$$, y sus resistencias térmicas unión-cápsula, $$R_{JC}$$ y cápsula disiador, $$R_{CD}$$, son $$1^{\circ}\text{C}/\text{W}$$ y $$0,2^{\circ}\text{C}/\text{W}$$, respectivamente.**
