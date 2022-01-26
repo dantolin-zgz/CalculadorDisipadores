@@ -93,6 +93,6 @@ ___
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig10.png">
 </p>
-<p align = "center">Figura 10. – Forma de onda de la señal de conmutación para una sobrecorriente de 60 A.</p>
+<p align = "center">Figura 10. – Forma de onda de la señal de conmutación para una sobrecorriente de 150 A.</p>
 
 5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $$50\;\text{Hz}$$.**
