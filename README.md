@@ -8,6 +8,8 @@ Contiene el código fuente del calculador ([`calc.py`](calc.py)), el de la inter
 
 Junto con la teoría asociada se incluyen una serie de ejercicios resueltos y explicados que permiten conocer el procedimiento de cálculo del disipador necesario para un dispositivo semiconductor de electrónica de potencia en sus diferentes modos de funcionamiento: Ejercicio resuelto para un semiconductor en [régimen de excitación continua](docs/EjerciciosResueltos/regimenPermanente.md), Ejercicio resuelto con un [tren de pulsos](docs/EjerciciosResueltos/trenPulsos.md) y de [pulso único](docs/EjerciciosResueltos/pulsoUnico.md) como regímenes de funcionamiento.
 
+Por otro lado, hay unos [ejercicios prorpuestos](docs/EjerciciosPropuestos/EnunciadosEjPropuestos.md) para que ayuden a afianzar los conceptos de la teoría y de los ejercicios de ejemplo.
+
  El código de la aplicación está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MacOS, usando los recursos que ofrece el paquete [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI).
 
 El conjunto de lo anteriormente comentado convierte a la aplicación en un Recurso Educativo en Abierto (REA), *Open Educative Resource* (OER), en inglés. Esto está alineado con los siguientes [Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 de Naciones Unidas](https://www.un.org/sustainabledevelopment/es/), contribuyendo en cierta medida a su logro número 4: **Educación de calidad**. Concretamente en los siguientes puntos:
