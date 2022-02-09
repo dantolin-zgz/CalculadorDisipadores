@@ -13,15 +13,15 @@ ___
 </p>
 <p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;\text{ms}$$**
+**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$200\;\text{ms}$$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$1,8\;V$$ y $$40\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$400\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$250\;ns$$. Su frecuencia de operación es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$1,8\;V$$ y $$40\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$400\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$15\;ns$$. Su frecuencia de operación es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig2.png">
 </p>
-<p align = "center">Figura 2. – Forma de onda de la señal de conmutación.</p>
+<p align = "center">Figura 2. – Forma de onda de la señal de conmutación. Nota: En esta figura la tensión y la corriente conmutan a la vez, lo cual indica que la carga que ve el dispositivo es resistiva. </p>
 
 
 **Las características térmicas del dispositivo se recogen en la Figura 3. Mientras que la Figura 4 muestra las gráficas de la resistencia térmica transitoria del IGBT**
@@ -60,10 +60,10 @@ ___
 </p>
 <p align = "center">Figura 6. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;\text{ms}$$**
+**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$200\;\text{ms}$$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$0,26\;V$$ y $$100\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$75\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$300\;ns$$. Su frecuencia de operación es de $$30\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$0,26\;V$$ y $$100\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$75\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$120\;ns$$. Su frecuencia de operación es de $$30\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig7.png">
