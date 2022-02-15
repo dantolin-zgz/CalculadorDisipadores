@@ -28,6 +28,7 @@ La Figura 1 muestra el esquema conceptual del circuito con los valores de funcio
 Los parámetros de funcionamiento del circuito y de los componentes son los siguientes:
 * Tensión de bloque (no conducción: $$V_{OFF}=60\;\text{V}$$
 * Tensión de conducción:            $$V_{ON}=2\;\text{V}$$
+* Corriente de conducción:            $$I_{ON}=20\;\text{A}$$
 * Frecuencia de operación: $$f=50\;\text{kHz}$$
 * Ciclo de trabajo: $$D=0,5$$
 * Temperatura máxima de la unión: $$(T_J)_{MAX}$$
@@ -50,15 +51,15 @@ $$P_{CONDUCCIÓN}= \frac 1T \cdot \int_{0}^{t_{ON}} p(t) \cdot dt=\frac 1T \cdot
 
 De forma similar las perdidas en conmutación vienen definidas por:
 
-$$P_{CONMUTACIÓN}= \frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(2)$$
+$$P_{CONMUTACIÓN}= \frac 16 \cdot V_{OFF} \cdot I_{ON} \cdot f \cdot(t_1+t_2)\;\;\;(2)$$
 
 Siendo $$t_1$$ el paso de conmutación de OFF a ON y $$t_2$$ el paso de ON a OFF.
 
 Las perdidas totales son:
-$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(3)$$
+$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 1 6 \cdot V_{OFF} \cdot I_{ON} \cdot f \cdot(t_1+t_2)\;\;\;(3)$$
 
 Sustituyendo valores:
-$$P=0,5 \cdot 20\;\text{A} \cdot 2\;\text{V}+\frac 16 \cdot 60\;\text{V} \cdot 50\;\text{kHz} \cdot(1\;\mu s+1\;\mu s)=20\;\text{W}+20\;\text{W}=40\;\text{W}\;\;\;(4)$$
+$$P=0,5 \cdot 20\;\text{A} \cdot 2\;\text{V}+\frac 16 \cdot 60\;\text{V} \cdot 20\;\text{A} \cdot 50\;\text{kHz} \cdot(1\;\mu s+1\;\mu s)=20\;\text{W}+20\;\text{W}=40\;\text{W}\;\;\;(4)$$
 
 
 **2. Potencia instantánea equivalente en conducción, suponiendo conmutación ideal.**
