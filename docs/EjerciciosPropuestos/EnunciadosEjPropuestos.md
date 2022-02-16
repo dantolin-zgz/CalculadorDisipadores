@@ -4,7 +4,7 @@
 
 El presente conjunto de ejercicios pretender servir para asentar los conocimientos explicados en la teoría y a través de los ejericios resueltos. Estos ejercicios están basados en componentes reales, los cuales se indican en los diferentes enunciados. Se incluyen los enlaces donde se pueden descargar las hojas de características de los mismo.
 
-La verificación del resultado se puede realizar utilizando el software Calculador de Disipadores (CdD) [AñadirEnlace].
+La verificación del resultado se puede realizar utilizando el software Calculador de Disipadores (CdD) que se puede descargar [aquí](https://github.com/dantolin-zgz/CalculadorDisipadores/zipball/main).
 
 ## **Ejercicio 1**
 ___
