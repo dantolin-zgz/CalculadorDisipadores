@@ -28,12 +28,12 @@
 
 La teoría asociada a la solución de este problema está relacionada con la teoría mostrada en el documento que trata sobre la situación del pulso [Pulso único](docs/teoriaPulsoUnico.md).
 
-La potencia media disipada por el componente esta formada por potencia perdida durante la conducción y durante la conmutación. Expresiones que vienen explicadas en la resolución del [ejercicio del comportamiento de un semiconductor en régimen permanente](docs/EjerciciosResueltos/regimenPermanente.md).
+La potencia media disipada por el componente esta formada por potencia perdida durante la conducción y durante la conmutación. Expresiones que vienen explicadas en la resolución del [ejercicio del comportamiento de un semiconductor en régimen permanente](EjerciciosResueltos/regimenPermanente.md).
 
 La potencia media total disipada en régimen normal de operación viene determinado por la expresión: 
-$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot f \cdot(t_1+t_2)\;\;\;(1)$$
+$$P=D \cdot I_{ON} \cdot V_{ON}+\frac 16 \cdot V_{OFF} \cdot I_{ON} \cdot f \cdot(t_1+t_2)\;\;\;(1)$$
 Sustituyendo valores:
-$$P=0,5 \cdot 20\;\text{A} \cdot 2\;\text{V}+\frac 16 \cdot 60V \cdot 50\;\text{kHz} \cdot(1\;\mu s+1\;\mu s)=20\;\text{W}+20\;\text{W}=40\;\text{W}\;\;\;(2)$$
+$$P=0,5 \cdot 20\;\text{A} \cdot 2\;\text{V}+\frac 16 \cdot 60V \cdot 20\;\text{A} \cdot 50\;\text{kHz} \cdot(1\;\mu s+1\;\mu s)=20\;\text{W}+20\;\text{W}=40\;\text{W}\;\;\;(2)$$
 
 Por otro lado, necesitamos calcular el calor de la potencia equivalente instantánea en conducción para el pulso único de sobrepotencia, $$P'_{ON}$$, el cual se obtiene de la expresión siguiente:
 

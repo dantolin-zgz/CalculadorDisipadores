@@ -10,7 +10,7 @@ Junto con la teoría asociada se incluyen una serie de ejercicios resueltos y ex
 
 Por otro lado, hay unos [ejercicios prorpuestos](docs/EjerciciosPropuestos/EnunciadosEjPropuestos.md) para que ayuden a afianzar los conceptos de la teoría y de los ejercicios de ejemplo.
 
- El código de la aplicación está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MacOS, usando los recursos que ofrece el paquete [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI).
+ El código de la aplicación está desarrollado en Python para que la aplicación sea multiplataforma y pueda ser utilizada tanto en sistemas operativos Windows, Linux o MacOS, usando los recursos que ofrece el paquete [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI). Para el uso del software puede ser necesaria la [descarga de Python](https://www.python.org/downloads/).
 
 El conjunto de lo anteriormente comentado convierte a la aplicación en un Recurso Educativo en Abierto (REA), *Open Educative Resource* (OER), en inglés. Esto está alineado con los siguientes [Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030 de Naciones Unidas](https://www.un.org/sustainabledevelopment/es/), contribuyendo en cierta medida a su logro número 4: **Educación de calidad**. Concretamente en los siguientes puntos:
 - **4.3 Asegurar el acceso igualitario a la formación superior:** De aquí a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional y superior de calidad, incluida la enseñanza universitaria.
