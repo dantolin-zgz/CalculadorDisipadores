@@ -13,10 +13,10 @@ ___
 </p>
 <p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$200\;\text{ms}$$**
+**La temperatura máxima de trabajo que suporta el semiconductor, $(T_J)_{MAX}$es de $175^{\circ}\text{C}$, su constante de tiempo unión-capsula,$$\tau$, es igual a $200\;\text{ms}$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$1,8\;V$$ y $$40\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$400\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$15\;ns$$. Su frecuencia de operación es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $V_{ON}$, y una corriente, $I_{ON}$, iguales a $1,8\;V$ y $40\;A$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $V_{OFF}$ y una corriente, $I_{OFF}$, con valores de $400\;V$ y $0\;A$. Los tiempos de conmutación del dispositivo $t_1$ y $t_2$ son iguales a $15\;ns$. Su frecuencia de operación es de $50\;kHz$ y el ciclo de trabajo, $D$ de $0,5$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig2.png">
@@ -41,14 +41,14 @@ ___
 **En las condiciones de operación indicadas se pide determinar:**
 1. **Potencia media total en el interruptor.**
 2. **Potencia instantánea en conducción, suponiendo una conmutación ideal.**
-3. **Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $$30^{\circ}\text{C}$$.**
-4. **Determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$60\;\text{A}$$ como el representado en la Figura 5.**
+3. **Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $30^{\circ}\text{C}$.**
+4. **Determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $60\;\text{A}$ como el representado en la Figura 5.**
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig5.png">
 </p>
 <p align = "center">Figura 5. – Forma de onda de la señal de conmutación para una sobrecorriente de 60 A.</p>
 
-5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $$50\;\text{Hz}$$.**
+5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $50\;\text{Hz}$.**
 
 
 ## **Ejercicio 2**
@@ -60,10 +60,10 @@ ___
 </p>
 <p align = "center">Figura 6. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$200\;\text{ms}$$**
+**La temperatura máxima de trabajo que suporta el semiconductor, $(T_J)_{MAX}$ es de $175^{\circ}\text{C}$, su constante de tiempo unión-capsula, $\tau$, es igual a $200\;\text{ms}$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$0,26\;V$$ y $$100\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$75\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$120\;ns$$. Su frecuencia de operación es de $$30\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $V_{ON}$, y una corriente, $I_{ON}$$, iguales a $0,26\;V$ y $100\;A$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $V_{OFF}$ y una corriente, $I_{OFF}$, con valores de $75\;V$ y $0\;A$$. Los tiempos de conmutación del dispositivo $t_1$ y $t_2$ son iguales a $120\;ns$. Su frecuencia de operación es de $30\;kHz$ y el ciclo de trabajo, $D$ de $0,5$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig7.png">
@@ -88,11 +88,11 @@ ___
 **En las condiciones de operación indicadas se pide determinar:**
 1. **Potencia media total en el interruptor.**
 2. **Potencia instantánea en conducción, suponiendo una conmutación ideal.**
-3. **Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $$30^{\circ}\text{C}$$.**
-4. **Determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$150\;\text{A}$$ como el representado en la Figura 10.**
+3. **Temperatura de la cápsula y disipador requerido para una correcta operación del dispositivo, suponiendo una temperatura ambiente de $30^{\circ}\text{C}$.**
+4. **Determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $150\;\text{A}$ como el representado en la Figura 10.**
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig10.png">
 </p>
 <p align = "center">Figura 10. – Forma de onda de la señal de conmutación para una sobrecorriente de 150 A.</p>
 
-5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $$50\;\text{Hz}$$.**
+5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $50\;\text{Hz}$.**
