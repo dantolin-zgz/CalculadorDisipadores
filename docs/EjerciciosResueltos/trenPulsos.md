@@ -79,7 +79,7 @@ Para la resolver este apartado es necesario comprender el modelo térmico eléct
 <p align = "center">Figura 4. – Circuito eléctrico equivalente a comportamiento térmico de un dispositivo.</p>
 
 
-La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](docs/teoriaTrenPulsos.md).
+La teoría asociada se encuentra en el documento sobre [Tren de Pulsos](../teoriaTrenPulsos.md).
 
 
 Como en dicho documento se indica, en el caso de un tren de pulsos repetitivo el comportamiento del circuito de la Figura 4, puede explicarse mediante un proceso repetitivo de Carga-Descarga de las capacidades del circuito equivalente. Esto es debido a que los condensadores se encuentran representando la inercia térmica propia de los elementos del sistema al incremento de temperaturas, y puesto que, esta inercia aumenta con la superficie de las zonas que soportan la progresión del calor, la capacidad asociada al nodo de la unión será la de menor valor del circuito. 
@@ -95,7 +95,7 @@ Dicho proceso de Carga-Descarga de las capacidades del circuito equivalente se c
 
 El valor medio del gradiente térmico puede ser poco relevante si las fluctuaciones térmicas son importantes, por eso resulta de especial interés determinar el valor máximo correspondiente.
 
-Las capacidades térmicas de la cápsula y del disipador son mucho mayores por lo que sus variaciones térmicas se pueden despreciar, lo que permite aproximar los condensadores asociados a cortocircuitos para todos los armónicos de la onda de excitación, mientras que actúa como un circuito abierto ante una excitación continua. De esta manera, se puede suponer que la cápsula y el disipador tienen una temperatura fija, mientras que las fluctuaciones quedan restringidas a la zona de la unión. Como consecuencia directa el sistema se puede representar mediante sendos circuitos equivalentes, representados en las Figuras 6 y 7, respectivamente, siendo $$p(t)$$ la onda rectangular de potencia y S$P$S su valor medio.
+Las capacidades térmicas de la cápsula y del disipador son mucho mayores por lo que sus variaciones térmicas se pueden despreciar, lo que permite aproximar los condensadores asociados a cortocircuitos para todos los armónicos de la onda de excitación, mientras que actúa como un circuito abierto ante una excitación continua. De esta manera, se puede suponer que la cápsula y el disipador tienen una temperatura fija, mientras que las fluctuaciones quedan restringidas a la zona de la unión. Como consecuencia directa el sistema se puede representar mediante sendos circuitos equivalentes, representados en las Figuras 6 y 7, respectivamente, siendo $$p(t)$$ la onda rectangular de potencia y $$P$$ su valor medio.
 
 <p align="center">
   <img src="../../assets/img/ejercicios/trenPulsoRepetitivo/Ej Fig6.png">
