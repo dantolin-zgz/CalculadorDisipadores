@@ -18,7 +18,7 @@ ___
 **La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula,$\tau$, es igual a $$200\;\text{ms}$$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$1,8\;V$$ y $$40\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$400\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$15\;ns$$. Su frecuencia de operación es de $$50\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$1,8\;\text{V}$$ y $$40\;\text{A}$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$400\;\text{V}$$ y $$0\;\text{A}$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$15\;\text{ns}$$. Su frecuencia de operación es de $$50\;\text{kHz}$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig2.png">
@@ -65,7 +65,7 @@ ___
 **La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$175^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $\tau$, es igual a $$200\;\text{ms}$$**
 
 
-**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$0,26\;V$$ y $$100\;A$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$75\;V$$ y $$0\;A$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$120\;ns$$. Su frecuencia de operación es de $$30\;kHz$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
+**En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 7. En esta Figura 7, cuando el interruptor se encuentra cerrado soporta una tensión, $$V_{ON}$$, y una corriente, $$I_{ON}$$, iguales a $$0,26\;\text{V}$$ y $$100\;\text{A}$$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $$V_{OFF}$$ y una corriente, $$I_{OFF}$$, con valores de $$75\;\text{V}$$ y $$0\;\text{A}$$. Los tiempos de conmutación del dispositivo $$t_1$$ y $$t_2$$ son iguales a $$120\;\text{ns}$$. Su frecuencia de operación es de $$30\;\text{kHz}$$ y el ciclo de trabajo, $$D$$ de $$0,5$$.**
 
 <p align="center">
   <img src="../../assets/img/ejerciciosPropuestos/Ej Fig7.png">
@@ -97,4 +97,4 @@ ___
 </p>
 <p align = "center">Figura 10. – Forma de onda de la señal de conmutación para una sobrecorriente de 150 A.</p>
 
-5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $$50\;\text{Hz}$$.**
+5. **Repetir los apartados 1, 2 y 3 para una frecuencia de operación de $50\;\text{Hz}$$.**
