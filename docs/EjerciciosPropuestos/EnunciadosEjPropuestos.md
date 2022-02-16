@@ -13,7 +13,7 @@ ___
 </p>
 <p align = "center">Figura 1. – Circuito electrónico con interruptor trabajando en modo on-off pulsante.</p> 
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $(T_J)_{MAX}$es de $175^{\circ}\text{C}$, su constante de tiempo unión-capsula,$$\tau$, es igual a $200\;\text{ms}$**
+**La temperatura máxima de trabajo que suporta el semiconductor, $(T_J)_{MAX}$es de $175^{\circ}\text{C}$, su constante de tiempo unión-capsula,$\tau$, es igual a $200\;\text{ms}$**
 
 
 **En su modo normal de funcionamiento se encontrará sometido a unas condiciones de tensión y corriente como las especificadas en la Figura 2. En esta Figura 2, cuando el interruptor se encuentra cerrado soporta una tensión, $V_{ON}$, y una corriente, $I_{ON}$, iguales a $1,8\;V$ y $40\;A$ respectivamente. Sin embargo, cuando el interruptor se encuentra abierto suporta una tensión, $V_{OFF}$ y una corriente, $I_{OFF}$, con valores de $400\;V$ y $0\;A$. Los tiempos de conmutación del dispositivo $t_1$ y $t_2$ son iguales a $15\;ns$. Su frecuencia de operación es de $50\;kHz$ y el ciclo de trabajo, $D$ de $0,5$.**
