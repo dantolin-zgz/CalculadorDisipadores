@@ -1,3 +1,5 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # **Ejercicios propuestos**
 
 El presente conjunto de ejercicios pretender servir para asentar los conocimientos explicados en la teoría y a través de los ejericios resueltos. Estos ejercicios están basados en componentes reales, los cuales se indican en los diferentes enunciados. Se incluyen los enlaces donde se pueden descargar las hojas de características de los mismo.
