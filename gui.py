@@ -11,7 +11,7 @@
    Disipadores
 """
 
-from PySimpleGUI import Text, Button, Input, Window, HorizontalSeparator, WINDOW_CLOSED
+from PySimpleGUI import Text, Button, Input, Window, HorizontalSeparator, Column, WINDOW_CLOSED
 from os import startfile
 from calc import *
 
@@ -19,7 +19,7 @@ __author__ = "Diego Antolín Cañada, and Daniel Enériz Orta"
 __copyright__ = "Copyright (C) 2021 Diego Antolín Cañada, and Daniel Enériz Orta"
 __credits__ = ["Diego Antolín Cañada", "Daniel Enériz Orta"]
 __license__ = "CC-BY-SA-4.0"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __maintainer__ = "Daniel Enériz Orta"
 __email__ = "eneriz@unizar.es"
 __status__ = "Prototype"
@@ -272,13 +272,7 @@ def CalcCont():
 def CalcUnic():
     """Unique pulse regime calculator interface
     """
-
-    calcunic_layout = [   
-
-                [Text('Púlso único', justification='center', font=("Helvetica", 25))],
-
-                [HorizontalSeparator()],
-
+    column = [
                 [   Text('Máxima temperatura de la unión (Tjmax):', size=(50,1)),
                     Input(key='-TJMAX-',
                              size=(5,1),
@@ -404,7 +398,16 @@ def CalcUnic():
                              enable_events=True,
                              tooltip='Resistencia térmica cápsula-disipador en ºC/W, por ejemplo 2.6 ºC/W'),
                     Text('ºC/W')
-                ],
+                ]
+            ]
+
+    calcunic_layout = [   
+
+                [Text('Púlso único', justification='center', font=("Helvetica", 25))],
+
+                [HorizontalSeparator()],
+
+                [Column(column, scrollable=True, vertical_scroll_only=True)],
 
                 [Text('', key='-ERROR-', text_color='#9D252F')],
 
@@ -490,7 +493,7 @@ def CalcUnic():
                 Rcs = float(values['-RCS-'])
 
                 # Calculate the Rsa value and display it
-                Rsa = calculatorRegPer(Tjmax, Ta, Voff, Ionsob, tonsob, t1sob,
+                Rsa = calculatorPulUni(Tjmax, Ta, Voff, Ionsob, tonsob, t1sob,
                                        t2sob, D, Von, Ion, f, t1, t2, Zjc, Rjc,
                                        Rcs)
                 window['-RSA-'].update('{:.2f}'.format(Rsa))
@@ -674,7 +677,7 @@ def CalcTren():
                 Rcs = float(values['-RCS-'])
 
                 # Calculate the Rsa value and display it
-                Rsa = calculatorRegPer(Tj, Ta, Voff, Ion, f, D, t1, t2, Zjc, Rcs)
+                Rsa = calculatorTrenPul(Tj, Ta, Voff, Ion, f, D, t1, t2, Zjc, Rcs)
                 window['-RSA-'].update('{:.2f}'.format(Rsa))
 
                 # Check if the Rsa value is negative and display an error if so
