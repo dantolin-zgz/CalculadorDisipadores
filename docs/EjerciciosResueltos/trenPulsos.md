@@ -167,7 +167,7 @@ $$P_{ON}= \frac D P = \frac {20\;\text{W}} {0,5} = 40\;\text{W} \;\;\;(17)$$
 
 Por otro lado, también debido a la baja frecuencia de operación el interruptor las fluctuaciones en la temperatura de la unión pueden resultar significativas. Como consecuencia de ello para calcular el gradiente térmico unión-cápsula en régimen permanente es preciso utilizar la impedancia $$Z_{JC}$$. El valor de esta impedancia térmica se obtiene mediante la siguiente expresión, ya mostrada anteriormente.
 
-$$Z_{JC}=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}} \approx R_{JC}\cdot  \frac{1-{[1-{t_{ON}}⁄\tau}]} {1-{[1-T  /\tau}]} =0,1^{\circ}\text{C}/\text{W} \cdot \frac{1-e^{-0,01\;⁄\;0,02}}{1-e^{-0,01/ (0,5 \; \cdot \; 0,02)}} \approx 0,62^{\circ}\text{C}/\text{W} \;\;\;(18)$$
+$$Z_{JC}=R_{JC} \cdot \frac{1-e^{-t_{ON}⁄\tau}}{1-e^{-T⁄\tau}} \approx R_{JC}\cdot  \frac{1-{[1-{t_{ON}}⁄\tau}]} {1-{[1-T  /\tau}]} =1^{\circ}\text{C}/\text{W} \cdot \frac{1-e^{-0,01\;⁄\;0,02}}{1-e^{-0,01/ (0,5 \; \cdot \; 0,02)}} \approx 0,62^{\circ}\text{C}/\text{W} \;\;\;(18)$$
 
 Este valor de impedancia térmica transitoria ha sido obtenido de forma analítica, si bien podría haberse obtenido de forma gráfica utilizando la gráfica mostrada en la Figura 8.
 

@@ -17,7 +17,7 @@
 </p>
 <p align = "center">Figura 2. – Formas de onda de la conmutación.</p>
 
-**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$150^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;\text{ms}$$ y las resistencias térmicas unión-cápsula, $$R_{JC}$$, y cápsula-disipador, $$R_{CS}$$, son $$1^{\circ}\text{C/W}$$ y $$0,2^{\circ}\text{C/W}$$, respectivamente**
+**La temperatura máxima de trabajo que suporta el semiconductor, $$(T_J)_{MAX}$$ es de $$150^{\circ}\text{C}$$, su constante de tiempo unión-capsula, $$\tau$$, es igual a $$2\;\text{ms}$$ y las resistencias térmicas unión-cápsula, $$R_{JC}$$, y cápsula-disipador, $$R_{CS}$$, son $$2^{\circ}\text{C/W}$$ y $$0,2^{\circ}\text{C/W}$$, respectivamente**
 
 **Se pide determinar el disipador requerido para que dicho componente semiconductor pueda soportar un pulso de sobrecorriente de $$200\;\text{A}$$ como el representado en la Figura 3.**
 
@@ -62,7 +62,7 @@ Su poniendo una situación estática, estacionaria, considerando el la excitaci�
 Siendo $$Z_{JC}$$ la impedancia térmica transitorio unión-cápsula de pulso único.
 
 Supuesto un pulso de sobrecorriente de corta duración, hablando en términos de electrónica de potencia puede ser sinónimos; puede suponerse el efecto único de la capacidad referente al nodo de la unión, mientras que el resto de condensadores pueden considerarse cortocircuitados. Esta aproximación conlleva que la cápsula y el disipador permanecen a temperatura ambiente, aproximación que resulta consecuente con la inercia térmica de estas regiones. En estas condiciones el sistema se rige por la expresión:
-$$Z_{JC}=_R{JC} \cdot (1-e^{-\tau\;/\;t})\;\;\;(8)$$
+$$Z_{JC}=R_{JC} \cdot (1-e^{-\tau\;/\;t})\;\;\;(8)$$
 Siendo los valores de la constante de tiempo $$\tau$$ inferiores a $$1\;s$$ típicamente para componentes de alta potencia.
 
 El circuito equivalente se muestra en la Figura 5.
@@ -102,7 +102,7 @@ Una vez obtenido el valor de la impedancia térmica transitoria, la temperatura 
 $$T_J=(T_J)_{MAX}-\Delta P \cdot Z_{JC}(t_{ON})=150^{\circ}\text{C}-0,01^{\circ}\text{C/W}\cdot 760\;\text{W} \approx 142^{\circ}\text{C}\;\;\;(12)$$
 
 Una vez calculada la temperatura media de la unión, la resistencia térmica del disipador se calcula a partir del análisis del circuito de la Figura 7.
-$$P=\frac {T_J -T_A}{R_{JA}} =\frac {T_J -T_A}{R_{JC}+R_{JS}+R_{SA}}=\frac {142^{\circ}\text{C}-30^{\circ}\text{C}}{2^{\circ}\text{C/W}+0,2^{\circ}\text{C/W}+R_{SA}}=40\;\text{W}\;\;\;(13)$$
+$$P=\frac {T_J -T_A}{R_{JA}} =\frac {T_J -T_A}{R_{JC}+R_{CS}+R_{SA}}=\frac {142^{\circ}\text{C}-30^{\circ}\text{C}}{2^{\circ}\text{C/W}+0,2^{\circ}\text{C/W}+R_{SA}}=40\;\text{W}\;\;\;(13)$$
 
 Despejando $$R_{SA}$$, se obtiene $$R_{SA}=0,6^{\circ}\text{C/W}$$
 
