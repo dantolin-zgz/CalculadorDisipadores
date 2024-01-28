@@ -34,9 +34,9 @@ $$
 R_{ja}=R_{jc}+R_{ca}≈R_{ca}
 $$
 
-A ciertos niveles de potencia, el alto valor de $$R_{ca}$$ dará lugar a un gradiente térmico entre la unión y el ambiente que eleve la temperatura de aquélla por encima de su valor máximo, $$(T_j)_{\max}$$, con la consiguiente destrucción del componente.
+A ciertos niveles de potencia, el alto valor de $$ R_{ca} $$ dará lugar a un gradiente térmico entre la unión y el ambiente que eleve la temperatura de aquélla por encima de su valor máximo, $$(T_j)_{\max}$$, con la consiguiente destrucción del componente.
 
-Para solventar este problema, deben utilizarse **disipadores térmicos** que, en contacto con la cápsula, faciliten la transferencia a la atmósfera circundante el flujo de calor que alcanza aquélla procedente del interior, a través de la drástica reducción de la resistencia térmica cápsula-ambiente, $$R_{ca}$$. En estas condiciones, el proceso global correspondiente a las transferencias cápsula-disipador, $$R_{cs}$$, y disipador-ambiente, $$R_{sa}$$; $$R_{ca}$$ puede descomponerse en esas dos componentes:
+Para solventar este problema, deben utilizarse **disipadores térmicos** que, en contacto con la cápsula, faciliten la transferencia a la atmósfera circundante el flujo de calor que alcanza aquélla procedente del interior, a través de la drástica reducción de la resistencia térmica cápsula-ambiente, $$ R_{ca} $$. En estas condiciones, el proceso global correspondiente a las transferencias cápsula-disipador, $$R_{cs}$$, y disipador-ambiente, $$R_{sa}$$; $$R_{ca}$$ puede descomponerse en esas dos componentes:
 
 $$
 R_{ca}=R_{cs}+R_{sa}
