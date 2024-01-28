@@ -10,7 +10,7 @@ $$
 
 Donde $$R_{jc}$$ (°C/W) representa la **resistencia térmica** unión-cápsula.
 
-Para cada valor de $$T_c$$, existe un límite de potencia, $$P_\text{lim}$$, correspondiente a la **máxima temperatura de operación**, $$(T_j)_{\max}$$. Ese límite resulta tanto mayor cuanto menor es la temperatura de la cápsula externa, $$T_c$$, de modo que el valor mínimo de ésta, coincidente con la temperatura ambiente (típicamente 25°C), $ T_a $, define el valor medio límite de **máxima potencia** que puede disipar el componente, $$P_{\max}$$:
+Para cada valor de $$T_c$$, existe un límite de potencia, $$P_\text{lim}$$, correspondiente a la **máxima temperatura de operación**, $$(T_j)_{\max}$$. Ese límite resulta tanto mayor cuanto menor es la temperatura de la cápsula externa, $$T_c$$, de modo que el valor mínimo de ésta, coincidente con la temperatura ambiente (típicamente 25°C), $$ T_a$$, define el valor medio límite de **máxima potencia** que puede disipar el componente, $$P_{\max}$$:
 
 $$
 P_\text{lim}=\frac{(T_j)_{\max}-T_c}{R_{jc}}, \quad P_{\max}=\frac{(T_j)_{\max}-T_a}{R_{jc}}  =\frac{(T_j)_{\max}-25°}{R_{jc}}
